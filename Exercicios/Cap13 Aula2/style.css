@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* Isso aqui abaixo e a variavel global  */
+* {
+    font-family: Bahnschrift;
+    
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    height: 590px;
+    padding: 20px;
+    box-shadow: 5px 5px 7px rgb(143, 27, 179);
+    margin: auto; /*isso serve para o background se ajustar em todas resolução*/
+    border-radius: 20px; /*Arredondar background */
+}
+
+button {
+    border-radius:20px;
+    border: none;
+    padding: 0.6rem 1.1rem;
+    background-color: rgb(132, 0, 255);
+    color: white;
+    cursor: pointer;
+    position: relative;
+    top: -80px;
+    left: 480px;
+}
+
+body {
+    background-image: linear-gradient(to right, #3D1255, #260339);
+}
+
+img {
+    width: 100px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: -456px;
+    left: 255px;
+}
+
+h1 {
+  color: #764B8E;
+  text-shadow: 2px 2px 04px rgb(132, 110, 194);
+
+}
+
+h2 {
+   color: #9775AA;
+}
+
+
+p {
+    text-align: justify;
+}

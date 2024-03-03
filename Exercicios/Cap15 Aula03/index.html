@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseu do classes</title>
+    <style>
+        div {
+            display: inline-block;
+            background-color: lightblue;
+            height: 200px;
+            width: 200px;
+            border: 1px solid rgb(53, 53, 53);
+            text-align: center;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: wheat;
+        }
+        div:hover {
+            background-color: blue;
+        }
+        #d1 {
+            color: blue;
+        }
+
+        #d2 {
+            color: blueviolet;
+        }
+
+        #d3 {
+            color: coral;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="d1">01 <p>Texto Escondido</p>  </div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+</body>
+</html>

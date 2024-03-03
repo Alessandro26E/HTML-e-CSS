@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap 11 Aula 1</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Img/Sap.png" type="image/png">
+        
+        <source media="(max-width: 1050px)" srcset="Img/Sky1.png" type="image/png">
+        <img src="Img/Red.png" alt="Sky1">
+    </picture>
+
+    <h1>Reproduzindo audios</h1>
+   <audio preload="metadata" autoplay controls>
+        <source src="Audio/lilTecca.mp3" type="audio/mpeg">
+
+   </audio>
+</body>
+</html>

@@ -1,0 +1,239 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    background-color: #05253A;
+}
+
+
+
+.CardLoginPrinci {
+    height: 50%;
+    display: flexbox;
+    justify-content: center;
+    margin: 150px 0px;
+}
+
+#TopText {
+    font-size: 10px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+#Title01 {
+    font-weight: 450;
+    font-size: 20px;
+    position: relative;
+    left: 18px;
+    top: 100px;
+}
+
+#LowText {
+    text-align: center;
+    display: block;
+    position: relative;
+    left: -70px;
+    top: 125px;
+    font-size: 12px;
+    color: #8F9394;
+}
+
+#LinkID {
+    color: #54cff5;
+    text-decoration: solid;
+}
+
+#CheckBoxID {
+    appearance: none;
+    cursor: pointer;
+}
+
+#CheckBoxID::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    width: 17px; /* Ajuste o tamanho conforme necessário */
+    height: 17px; /* Ajuste o tamanho conforme necessário */
+    border: 1px solid #49BBFF; /* Cor e espessura da borda */
+    border-radius: 3px; /* Arredonda a borda */
+    margin-right: 3px; /* Espaçamento entre o checkbox e o texto */
+}
+
+#CheckBoxID:checked::before {
+     background-color: #49BBFF;
+     display: inline-block;
+     background-image: url("Img/CheckIcon.png");
+     background-size: 16px;
+     background-position-x: 0.5px;
+     background-position-y: -0.7px;
+     border: 1px solid #49BBFF;
+   
+}
+
+#Quarto3D {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 700px;
+    left: 600px;
+    bottom: 420px;
+}
+
+#Arrow {
+    margin: auto;
+    position: relative;
+    bottom: 794px;
+    left: 160vh;
+}
+
+.EmailBox > input {
+    width: 90%;
+    height: 45px;
+    border-radius: 8px;
+    border: 2px solid #2b5779;
+    background-color: #0D3451;
+    margin: -10px 20px;
+    padding: 10px 40px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+.UserNameBox > input {
+    width: 90%;
+    height: 45px;
+    border-radius: 8px;
+    border: 2px solid #2b5779;
+    background-color: #0D3451;
+    margin: 10px 20px;
+    padding: 10px 40px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+.PasswordBox > input {
+    width: 90%;
+    height: 45px;
+    border-radius: 8px;
+    border: 2px solid #2b5779;
+    background-color: #0D3451;
+    margin: -10px 20px;
+    padding: 10px 40px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+
+.EmailBox > img {
+    display: flex;
+    position: relative;
+    top: -25px;
+    left: 30px;
+}
+
+.UserNameBox > img {
+    display: flex;
+    position: relative;
+    top: -45px;
+    left: 30px;
+}
+
+.PasswordBox > img {
+    display: flex;
+    position: relative;
+    top: -25px;
+    left: 30px;
+}
+
+.CardLogin {
+    width: 400px;
+    height: 90vh;
+    margin: 30px;
+    border-radius: 18px;
+    background-color: #0D3350;
+}
+
+.PasswordBox > input:hover {
+    border: 2px solid #45B9FF;
+    background-color: #193E59;
+}
+
+.PasswordBox > input:hover::placeholder {
+    color: rgb(223, 218, 218);
+}
+
+
+.EmailBox > input:hover {
+    border: 2px solid #45B9FF;
+    background-color: #193E59;
+}
+
+.EmailBox > input:hover::placeholder {
+    color: rgb(223, 218, 218);
+}
+
+.UserNameBox > input:hover {
+    border: 2px solid #45B9FF;
+    background-color: #193E59;
+}
+
+.UserNameBox > input:hover::placeholder {
+    color: rgb(223, 218, 218);
+}
+
+.RememberForgot {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    bottom: 300px;
+    font-size: 12px;
+}
+
+.LoginBtn {
+    margin: auto;
+    position: relative;
+    width: 90%;
+    height: 48px;
+    bottom: 275px;
+    left: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #45B9FF;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.BackHomeBtn {
+    background: none;
+    border: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    margin: auto;
+    position: relative;
+    bottom: 800px;
+    left: 180vh;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+   

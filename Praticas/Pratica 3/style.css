@@ -1,0 +1,273 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(24, 24, 24);
+}
+
+div.Principal {
+    background-image: linear-gradient(to right, #dedee2, #cdcdce);
+    padding: 10px;
+    width: 800px;
+    height: 650px;
+    position: relative;
+    margin: auto;
+    border-radius: 20px;
+}
+
+div.Cabecario {
+    margin: auto;
+    background-color: white;
+    width: 820px;
+    height: 120px;
+    position: relative;
+    top: -670px;
+    border-radius: 20px;
+}
+
+p#CentralVendas {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: -38px;
+    left: 280px;
+}
+
+
+
+p#Ajuda {
+    color: rgb(64, 131, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    margin: auto;
+    position: relative;
+    top: -53px;
+    left: 440px;
+}
+
+p#Boletos {
+    color: rgb(64, 131, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    margin: auto;
+    position: relative;
+    top: -70px;
+    left: 490px;
+}
+
+p#WebMail {
+    color: rgb(64, 131, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    margin: auto;
+    position: relative;
+    top: -85px;
+    left: 600px;
+}
+
+button {
+    background-color: white;
+    border-color: rgb(64, 131, 255);
+    color:  rgb(64, 131, 255);
+    border-radius: 5px;
+    position: relative;
+    border: ;
+    margin: auto;
+    height: 30px;
+    top: -106px;
+    left: 680px;
+}
+
+
+
+div > img {
+    width: 40px;
+    position: relative;
+    margin: auto;
+    top: 25px;
+    left: 18px;
+}
+
+div > .TodosProdutos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: auto;
+    position: relative;
+    top: -80px;
+    left: 55px;
+}
+
+div > .Hospede {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: auto;
+    position: relative;
+    top: -95px;
+    left: 195px;
+}
+
+div > .LojaVirtual {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: auto;
+    position: relative;
+    top: -110px;
+    left: 360px;
+}
+
+div > .Divulgue {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: auto;
+    position: relative;
+    top: -124px;
+    left: 510px;
+}
+
+div > .CloundComputing {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: auto;
+    position: relative;
+    top: -139px;
+    left: 670px;
+}
+
+div > .CriarSiteText {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    text-shadow: rgb(44, 42, 42) 4px 4px;
+    margin: auto;
+    position: relative;
+    top: -390px;
+    left: 50px;
+}
+
+div > .SegTitulo {
+    font-family: Roboto;
+    font-size: 1.5em;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: -110px;
+}
+
+div > .ButtonContrate {
+    margin: auto;
+    position: relative;
+    top: -115px;
+    left: 55px;
+    border: none;
+    background-color: rgb(214, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 180px;
+    height: 40px;
+}
+
+div > .ButtonContrate2 {
+    margin: auto;
+    position: relative;
+    top: -115px;
+    left: 130px;
+    border: none;
+    background-color: rgb(214, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 180px;
+    height: 40px;
+}
+
+div > .ButtonContrate3 {
+    margin: auto;
+    position: relative;
+    top: -115px;
+    left: 216px;
+    border: none;
+    background-color: rgb(214, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 180px;
+    height: 40px;
+}
+
+#NotebookImg {
+    margin: auto;
+    display: flexbox;
+    justify-content: space-evenly;
+    text-align: center;
+    position: relative;
+    height: 390px;
+    width: 260px;
+    top: -50px;
+    left: 15px;
+    border-radius: 10px;
+}
+
+#PcIcon {
+    margin: auto;
+    position: relative;
+    height: 30px;
+    width: 35px;
+    top: -430px;
+    left: 30px;
+}
+
+#TextBold {
+    font-weight: bold;
+}
+
+#TextBold2 {
+    font-weight: 700;
+}
+
+p#Titulo {
+    font-size: 25px;
+    font-family: fantasy;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    position: relative;
+    text-decoration: underline;
+    left: 60px;
+    top: -17px;
+}
+
+span#TituloHost {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(31, 109, 226);
+}
+
+span#Produtos {
+    font-weight: bold;
+}
+
+.ButtonContrate:hover {
+    background-color: rgb(156, 47, 47);
+    font-size: 13px;
+}
+
+.ButtonContrate:active {
+    color: rgb(105, 14, 14);
+}
+
+.ButtonContrate2:hover {
+    background-color: rgb(156, 47, 47);
+    font-size: 13px;
+}
+
+.ButtonContrate2:active {
+    color: rgb(105, 14, 14);
+}
+
+.ButtonContrate3:hover {
+    background-color: rgb(156, 47, 47);
+    font-size: 13px;
+}
+
+.ButtonContrate3:active {
+    color: rgb(105, 14, 14);
+}

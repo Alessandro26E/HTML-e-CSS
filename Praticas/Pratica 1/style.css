@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #285956;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+
+}
+
+.AreaLogin {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.CardLogin {
+    background-color: #0A100E;
+    width: 750px;
+    height: 650px;
+    
+    border-radius: 20px;
+}
+
+.CardLogin div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-top: 210px;
+    align-items: left;
+}
+
+.CardLogin div input {
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 20px;
+    font-family: 'Poppins';
+    font-size: 12px;
+}
+
+.CardLogin div input::placeholder {
+    color: black;
+}
+
+.CardLogin div button{
+    width: 240px;
+    height: 40px;
+    margin-top: -200px;
+    margin-left: -30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #43B27F;
+    color: white;
+    font-size: 14px;
+    font-family: "Poppins";
+}
+
+.CardLogin div p {
+    color: rgb(255, 255, 255);
+}
+
+#EmailText {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 250;
+}
+
+#PasswordText {
+    margin: 0;
+    margin-top: 13px;
+    font-size: 12px;
+    font-weight: 250;
+}
+
+#ForgotPass {
+    font-size: 13px;
+    
+    text-decoration: underline;
+    margin-left: 165px;
+    margin-top: 12px;
+}
+
+#Text01{
+    margin: 0;
+    margin-bottom: 25px;
+    
+    font-size: 12px;
+    font-weight: 200;
+}
+
+#SiteName {
+    color: white;
+    padding-top: 12px;
+    padding-left: 30px;
+    font-family: Poppins;
+    font-size: 13px;
+    
+}
+
+#GoogleIcon {
+    width: 33px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#GithubIcon {
+    width: 33px;
+    margin-left: 70px;
+    margin-top: -110px;
+    position: relative;
+    bottom: 25px;;
+}
+
+
+#FaceIcon {
+    width: 34.5px;
+    margin-left: 120px;
+    margin-top: -90px;
+    position: relative;
+    bottom: 49px;
+}
+
+#Mural {
+   width: 330px;
+   height: 550px;
+   padding-left: 310px;
+   margin-top: -880px;
+}

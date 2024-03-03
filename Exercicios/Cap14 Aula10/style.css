@@ -1,0 +1,16 @@
+@charset "UTDF-8";
+
+body {
+    padding: 20px;
+    
+    background-image: linear-gradient(90deg #4897DB #4868DB);
+}
+
+#Seg {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: forestgreen;
+}
+.Principal {
+    color: blue;
+}
