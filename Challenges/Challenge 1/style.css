@@ -33,15 +33,14 @@ body {
     height: 150px;
     background-color: #FFF7FC;
     border-radius: 10px;
+    list-style: none;
 }
 
-#PreparationTimeText {
+.PreparattionTime > .PreparationTimeText {
     font-family: Outfit;
     color: hsl(332, 51%, 32%);
-    font-size: 14px;
-    margin-left: 20px;
+    font-weight: 600;
 }
-
 
 #SegText {
     font-family: Outfit;
@@ -56,23 +55,48 @@ body {
     margin-left: 35px;
 }
 
+#IngredientsText {
+    color: hsl(14, 45%, 36%);
+    margin-left: 6px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
 
 .PreparationTime ul li{
     font-family: Outfit;
     list-style-type: none;
-    padding-left: 0px;
-
 }
 
 .PreparationTime .Lista {
-    margin-top: 30px;
+    margin-top: 35px;
     margin-left: -140px;
 }
 
-.PreparationTime .Lista  ul li::before{
+.PreparattionTime .Lista  ul li {
+    margin-left: -28px;
+    list-style: none;
+    font-family: Outfit;
+}
+
+.PreparattionTime .Lista  ul li::before{
     content: "\2022";
     display: inline-block;
-    width: 1em;
+    width: 2em;
     height: 2em;
-    color: hsl(332, 51%, 32%);
+    color: hsl(14, 45%, 36%);;
+}
+
+.Lista .ListaIngredients  ul li {
+    margin-left: -28px;
+    list-style: none;
+    font-family: Outfit;
+}
+
+.Lista .ListaIngredients  ul li::before{
+    content: "\2022";
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    color: hsl(14, 45%, 36%);;
 }
