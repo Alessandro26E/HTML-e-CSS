@@ -19,6 +19,29 @@
     padding: 0px;
 }
 
+p {
+    padding: 15px 0px;
+    text-align: justify;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 1.3em;
+}
+
+main strong {
+    color: #3CD681;
+    font-weight: bold;
+}
+
+main a {
+    color: #2C6847;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 body {
     background-color: #84E1AD;
     font-family: var(--FontPadrao);
@@ -99,7 +122,7 @@ footer p {
 }
 
 main article .BugdroidPequeno {
-  width: 50%;
+  max-width: 350px;
   display: block;
   margin: auto;
 }
@@ -107,4 +130,6 @@ main article .BugdroidPequeno {
 iframe {
     display: block;
     margin: auto;
+    background-color: #1A5C38;
+   
 }
