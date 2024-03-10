@@ -3,9 +3,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
+
 body {
     font-size: 16px;
     background-color: #F3E5D8;
+    margin: auto;
 }
 
 .PrincipalDiv{
@@ -28,7 +30,7 @@ body {
 }
 
 .PreparationTime {
-    display: flex;
+    display: block;
     width: 400px;
     height: 150px;
     background-color: #FFF7FC;
@@ -36,11 +38,15 @@ body {
     list-style: none;
 }
 
-.PreparattionTime > .PreparationTimeText {
+#PreparationTimeText {
     font-family: Outfit;
     color: hsl(332, 51%, 32%);
     font-weight: 600;
+    margin-left: 20px;
+    padding-top: 1px;
 }
+ 
+
 
 #SegText {
     font-family: Outfit;
@@ -57,7 +63,7 @@ body {
 
 #IngredientsText {
     color: hsl(14, 45%, 36%);
-    margin-left: 6px;
+    margin-left: 11px;
     font-size: 30px;
     font-weight: 300;
 }
@@ -66,11 +72,12 @@ body {
 .PreparationTime ul li{
     font-family: Outfit;
     list-style-type: none;
+
+    padding: 5px;
 }
 
 .PreparationTime .Lista {
-    margin-top: 35px;
-    margin-left: -140px;
+    margin-left: -22px;
 }
 
 .PreparattionTime .Lista  ul li {
@@ -87,10 +94,10 @@ body {
     color: hsl(14, 45%, 36%);;
 }
 
-.Lista .ListaIngredients  ul li {
-    margin-left: -28px;
+.SegLista .ListaIngredients  ul li {
     list-style: none;
     font-family: Outfit;
+    
 }
 
 .Lista .ListaIngredients  ul li::before{
@@ -99,4 +106,8 @@ body {
     width: 2em;
     height: 2em;
     color: hsl(14, 45%, 36%);;
+}
+
+@media screen and (max-width: 500px) {
+   
 }
