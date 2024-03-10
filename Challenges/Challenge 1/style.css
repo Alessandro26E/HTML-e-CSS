@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: center;
     width: 500px;
-    height: 900px;
+    height: 215vh;
     background-color: white;
     border-radius: 10px;
 }
@@ -68,11 +68,32 @@ body {
     font-weight: 300;
 }
 
+#InstructionsText {
+    color: hsl(14, 45%, 36%);
+    font-weight: 100;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+#NutritionText {
+    color: hsl(14, 45%, 36%);
+    margin-left: 10px;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+#NutritionP {
+    font-family: Outfit;
+    margin-left: 10px;
+    font-size: 10px;
+    text-align: justify;
+    font-weight: 300;
+}
+
 
 .PreparationTime ul li{
     font-family: Outfit;
     list-style-type: none;
-
     padding: 5px;
 }
 
@@ -84,30 +105,167 @@ body {
     margin-left: -28px;
     list-style: none;
     font-family: Outfit;
+
 }
 
-.PreparattionTime .Lista  ul li::before{
+
+.PreparationTime .Lista  ul li::before{
     content: "\2022";
     display: inline-block;
     width: 2em;
-    height: 2em;
-    color: hsl(14, 45%, 36%);;
+    height: 1em;
+    color: #703851;;
+}
+
+.SegLista .ListaIngredients {
+    margin-left: -20px;
 }
 
 .SegLista .ListaIngredients  ul li {
     list-style: none;
+    color: rgb(0, 0, 0);
     font-family: Outfit;
     
 }
 
-.Lista .ListaIngredients  ul li::before{
+.SegLista .ListaIngredients  ul li::before{
     content: "\2022";
     display: inline-block;
     width: 2em;
-    height: 2em;
+    height: 1em;
     color: hsl(14, 45%, 36%);;
 }
 
-@media screen and (max-width: 500px) {
-   
+
+
+
+.TerceiraLista  ol li{
+    font-family: Outfit;
+    padding: 10px;
+    text-align: justify;
 }
+
+.TerceiraLista ol li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+.UltimaLista {
+    text-align: left;
+}
+
+.UltimaDiv .UltimaLista .Nome {
+    font-family: Outfit;
+    text-indent: 20px;
+    font-size: 13px;
+    color: rgb(88, 88, 88);
+}
+
+.UltimaDiv .UltimaLista .Desc {
+    font-family: Outfit;
+    color: hsl(14, 45%, 36%);
+    padding-left: 300px;
+    margin-top: -20px;
+    font-size: 13px;
+}
+
+@media (max-width: 768px){
+    .PrincipalDiv{
+        text-align: center;
+        margin-left: auto;
+        display: flex;
+        margin-right: auto;
+        justify-content: center;
+        width: 100%;
+        height: 270vh;
+        background-color: white;
+        border-radius: 10px;    
+    }
+
+    .TextosPrincipais > h1 {
+        padding-top: 25px;
+        padding-left: 90px;
+        margin: auto;
+        text-align: left;
+      }
+
+
+    .PreparationTime .Lista {
+        text-align: justify;
+   
+    }
+
+    .PrincipalDiv .TextosPrincipais .PreparationTime {
+        width: 300px;
+        margin-left: 90px;
+    }
+
+
+    .PrincipalDiv .TextosPrincipais {
+        padding-right: 50px;
+    }
+
+    .SegLista .ListaIngredients {
+        text-align: left;
+    }
+
+    .UltimaDiv .UltimaLista .Desc {
+        font-family: Outfit;
+        color: hsl(14, 45%, 36%);
+        padding-left: 250px;
+        margin-top: -20px;
+        font-size: 13px;
+    }
+    
+ 
+    #ImgOmelet{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+    }
+
+    #PreparationTimeText {
+        flex-direction: wrap;
+        font-family: Outfit;
+        color: hsl(332, 51%, 32%);
+        font-weight: 600;
+        margin-right: 140px; 
+        padding-top: 1px;
+    }
+    
+    #SegText {
+        font-family: Outfit;
+        font-size: 10px;
+        margin-left: 90px;
+        text-align: left;
+    }
+
+    #IngredientsText {
+        margin-left: -110px;
+    }
+
+        
+    #InstructionsText {
+        color: hsl(14, 45%, 36%);
+        font-weight: 100;
+        margin-left: -100px;
+        font-size: 30px;
+    }
+
+  #NutritionText {
+    color: hsl(14, 45%, 36%);
+    margin-left: -110px;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+    #NutritionP {
+        font-family: Outfit;
+        margin-left: 20px;
+        margin-top: -15px;
+        font-size: 10px;
+        text-align: justify;
+        font-weight: 300;
+    }
+
+    }
