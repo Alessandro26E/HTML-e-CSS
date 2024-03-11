@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: rgb(54, 54, 54);
+}
+
+main {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    transform: translateY(50%);
+}
+
+.ResultBack {
+    margin: auto;
+    border-radius: 25px;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 350px;
+    height: 450px;
+}
+
+.ResultBack h3 {
+    padding-top: 30px;
+    font-family: "Hanken Grotesk";
+    color: hsl(241, 100%, 89%);
+    padding-bottom: 35px;
+}
+
+.ResultBack .Circle {
+    padding-top: 10px;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 50%;
+    margin: auto;
+    height: 170px;
+    border-radius: 100px;
+}
+
+
+.ResultBack .Circle h1 {
+    color: white;
+    font-family: "Hanken Grotesk";
+    font-size: 60px;
+}
+
+
+.ResultBack .Circle h1 {
+    padding-top: 25px;
+    color: white;
+    font-family: "Hanken Grotesk";
+    font-size: 60px;
+}
+
+.ResultBack .Circle p {
+    color: hsl(241, 100%, 89%);
+    font-family: "Hanken Grotesk";
+    font-size: 15px;
+}
+
+
+#GreatText {
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: "Hanken Grotesk";
+}
+
+.ResultBack p {
+    color: hsl(241, 100%, 89%);
+    font-family: "Hanken Grotesk";
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+.SumaryBack {
+    margin: auto;
+    transform: translateY(-86%);
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 370px;
+    margin-left: 350px;
+    border-end-end-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+.SumaryBack h3 {
+    color: black;
+    margin-right: 190px;
+    padding-top: 15px;
+}
+
+.SumaryBack .InfosBack .ReactionBack {
+    background-color: hsla(0, 100%, 67%, 0.1);
+    width: 250px;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.SumaryBack .InfosBack .ReactionBack img {
+    margin-right: 210px;
+    margin-top: 3px;
+}
+
+
+.SumaryBack .InfosBack .ReactionBack p {
+    margin-right: 115px;
+    margin-top: -22px;
+    color: hsl(0, 100%, 67%);
+    font-size: 14px;
+    font-family: "Hanken Grotesk";
+    font-weight: bold;
+
+}
+
+.SumaryBack .InfosBack .Nums{
+    margin-left: 170px;
+    margin-top: -31px;
+    font-family: "Hanken Grotesk";
+
+}
+
+.SumaryBack .InfosBack .Nums p {
+    font-size: 13px;
+}
+
+.SumaryBack .InfosBack .Nums span{
+    color: rgb(102, 101, 101);
+    font-size: 14px;
+
+}
+
+.SumaryBack .InfosBack .MemoryBack {
+    background-color: hsla(39, 100%, 56%, 0.1);
+    width: 250px;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    height: 45px;
+    margin-top: 20px;
+}
+
+.SumaryBack .InfosBack .MemoryBack img {
+    margin-right: 210px;
+    margin-top: 3px;
+}
+
+
+.SumaryBack .InfosBack .MemoryBack p {
+    margin-right: 115px;
+    margin-top: -22px;
+    color: hsl(39, 100%, 56%);
+    font-size: 14px;
+    font-family: "Hanken Grotesk";
+    font-weight: bold;
+
+}
+
+.SumaryBack .InfosBack .VerbalBack {
+    background-color: hsla(166, 100%, 37%, 0.1);
+    width: 250px;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    height: 45px;
+    margin-top: 20px;
+}
+
+.SumaryBack .InfosBack .VerbalBack img {
+    margin-right: 210px;
+    margin-top: 3px;
+}
+
+
+.SumaryBack .InfosBack .VerbalBack p {
+    margin-right: 115px;
+    margin-top: -22px;
+    color: hsl(166, 100%, 37%);
+    font-size: 14px;
+    font-family: "Hanken Grotesk";
+    font-weight: bold;
+
+}
+
+.SumaryBack .InfosBack .VisualBack {
+    background-color: hsla(234, 85%, 45%, 0.1);
+    width: 250px;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    height: 45px;
+    margin-top: 20px;
+}
+
+.SumaryBack .InfosBack .VisualBack img {
+    margin-right: 210px;
+    margin-top: 3px;
+}
+
+
+.SumaryBack .InfosBack .VisualBack p {
+    margin-right: 115px;
+    margin-top: -22px;
+    color: hsl(234, 85%, 45%);
+    font-size: 14px;
+    font-family: "Hanken Grotesk";
+    font-weight: bold;
+
+}
+
+.SumaryBack .InfosBack a {
+    background-color: hsl(224, 30%, 27%);
+    margin: auto;
+    width: 250px;
+    height: 45px;
+    display: block;
+    margin-top: 40px;
+    text-decoration: none;
+    color: white;
+    font-family: "Hanken Grotesk";
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.SumaryBack .InfosBack a:hover {
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
