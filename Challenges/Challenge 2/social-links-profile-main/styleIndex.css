@@ -72,3 +72,8 @@ body {
     border-radius: 6px;
     border: none;
 }
+
+.Buttons a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
