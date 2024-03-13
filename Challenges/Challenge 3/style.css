@@ -10,18 +10,21 @@
 
 body {
     background-color: rgb(54, 54, 54);
+    margin: 0;
+    height: 100vh;
 }
 
 main {
-    display: flex;
-    margin: auto;
     text-align: center;
-    justify-content: center;
-    transform: translateY(50%);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%;
+    margin: auto;
+
 }
 
 .ResultBack {
-    margin: auto;
     border-radius: 25px;
     background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     width: 350px;
