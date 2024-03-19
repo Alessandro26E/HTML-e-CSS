@@ -1,2 +1,53 @@
 @charset "UTF-8";
 
+ 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #F3EAE3;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.DivPrincipal {
+    background-color: white;
+    height: 400px;
+    width: 550px;
+}
+
+.DivPrincipal ul li {
+    font-size: 30px;
+    position: relative;
+    top: -370px;
+    left: 300px;
+    padding-bottom: -15px;
+    font-weight: bold;
+}
+
+#PerfumeText {
+    position: relative;
+    top: -385px;
+    left: 300px;
+    color: rgb(70, 70, 70);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    font-size: 13PX;
+}
+
+
+#PerfumImage {
+    width: 270px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#DescText {
+
+    justify-content: left;
+}
