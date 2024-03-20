@@ -103,6 +103,7 @@ body {
     font-weight: 600;
 }
 
+/*Mobile Resolution*/
 
 @media (max-width: 768px) {
     .DivPrincipal {
