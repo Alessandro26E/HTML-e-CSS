@@ -18,7 +18,9 @@ body {
 .DivPrincipal {
     background-color: white;
     height: 400px;
-    width: 550px;
+    width: 560px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .DivPrincipal ul li {
@@ -28,6 +30,7 @@ body {
     left: 300px;
     padding-bottom: -15px;
     font-weight: bold;
+    list-style-type: none;
 }
 
 #PerfumeText {
@@ -42,12 +45,137 @@ body {
 
 
 #PerfumImage {
-    width: 270px;
+    width: 267px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
 
-#DescText {
+#ValorRealText {
+    color: #3F7C66;
+    font-size: 35px;
+    margin-top: -320px;
+    margin-left: 300px;
+}
 
-    justify-content: left;
+#ValorAnteriorText {
+    text-decoration: line-through;
+    color: #626164;
+    margin-left: 430px;
+    font-size: 15px;
+    margin-top: -28px;
+}
+
+.DescText {
+    position: relative;
+    bottom: 340px;
+    font-size: 12px;
+    width: 200px;
+    color: rgb(70, 70, 70);
+    margin-left: 300px;
+    font-family: Poppins;
+}
+
+.BuyBtn button{
+    border: none;
+    border-radius: 10px;
+    margin-left: 300px; 
+    margin-top: 30px;
+    background-color: #3D8168;
+    width: 220px;
+    height: 50px;
+}
+
+.BuyBtn button:hover{
+    background-color: #30614f;
+    transition: 0.5s;
+}
+
+.BuyBtn img{
+    margin-right: 120px;
+    margin-top: 17px;
+}
+
+.BuyBtn p {
+    color: white;
+    position: relative;
+    bottom: 20px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+
+@media (max-width: 768px) {
+    .DivPrincipal {
+        margin-top: 200px;
+        border-bottom-left-radius: 10px;
+        background-color: white;
+        height: 620px;
+        width: 360px;
+    }
+
+    #PerfumImage {
+        width: 360px;
+        height: 250px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0px;
+        margin-top: -70px;
+    }
+
+    #PerfumeText {
+        position: relative;
+        left: 30px;
+        top: 20px;
+        color: rgb(145, 142, 142);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing: 5px;
+        font-size: 13px;
+    }
+
+    .DivPrincipal ul li {
+        font-size: 30px;
+        position: relative;
+        top: 30px;
+        left: 30px;
+        padding-bottom: -15px;
+        font-weight: bold;
+        list-style-type: none;
+    }
+
+    
+    .DescText {
+        position: relative;
+        bottom: -50px;
+        font-size: 16px;
+        width: 300px;
+        color: rgb(70, 70, 70);
+        margin-left: 35px;
+        font-family: Poppins;
+    }
+
+    
+    #ValorRealText {
+        color: #3F7C66;
+        font-size: 38px;
+        margin-top: 70px;
+        margin-left: 30px;
+    }
+
+    #ValorAnteriorText {
+        text-decoration: line-through;
+        color: #626164;
+        margin-left: 180px;
+        font-size: 15px;
+        margin-top: -28px;
+    }
+    
+    .BuyBtn button{
+        border: none;
+        border-radius: 10px;
+        margin-left: 30px; 
+        margin-top: 30px;
+        background-color: #3D8168;
+        width: 300px;
+        height: 50px;
+    }
 }
