@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+:root {
+    --Pale_Blue: hsl(225, 100%, 94%);
+    --Bright_Blue: hsl(245, 75%, 52%);
+    --Very_pale_blue: hsl(225, 100%, 98%);
+    --Desaturated_blue: hsl(224, 23%, 55%);
+    --Dark_blue: hsl(223, 47%, 23%);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Pale_Blue);
+    font-family: "Red Hat Display";
+    font-size: 16px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    height: 600px;
+    border-radius: 15px;
+}
+
+main img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+h1 {
+    color: var(--Dark_blue);
+    margin-top: 30px;
+    margin-left: 110px;
+    font-size: 25px;
+    
+}
+
+#DescText {
+    font-size: 13px;
+    width: 260px;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+#DescText {
+    color: var(--Desaturated_blue);
+}
+
+#CancelBtn {
+    font-weight: 700;
+    color: var(--Desaturated_blue) ;
+    display: flex;
+    background: none;
+    border: none;
+}
+
+#AnualText {
+    font-family: "Red Hat Display";
+    font-weight: bold;
+    color: var(--Dark_blue);
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#ProceedBtn {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Red Hat Display";
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: var(--Bright_Blue);
+    border-radius: 5px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 75px;
+}
+
+#ProceedBtn:hover {
+   box-shadow:  .1px 1px 5px rgb(181, 0, 247);
+   font-weight: bold;
+   cursor: pointer;
+}
+
+#PriceText {
+    color: var(--Desaturated_blue);
+    margin-top: 30px;
+    font-size: 13px;
+    position: relative;
+    right: 80px;
+}
+
+#MusicIcon {
+    width: 40px;
+    height: 40px;
+    margin-top: 11px;
+    margin-left: 6px;
+}
+
+#ChangeText {
+    margin-top: 20px;
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: 800;
+    color: var(--Bright_Blue);
+}
+
+#ChangeText:hover {
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#CancelBtn {
+    margin-top: 35px;
+    margin-left: 170px;
+}
+
+#CancelBtn:hover {
+    font-family: "Red Hat Display";
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.PlanInfos {
+    display: flex;
+    margin-left: 90px;
+    margin-top: 40px;
+    background-color: var(--Very_pale_blue);
+    width: 265px;
+    height: 60px;
+    border-radius: 5px;
+
+}
+
+@media (max-width: 768px) {
+
+
+    body {
+        background-color: var(--Pale_Blue);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+    main {
+        width: 350px;
+        background-color: rgb(255, 255, 255);
+        margin: auto;
+        height: 600px;
+        border-radius: 15px;
+    }
+
+
+    main img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        width: 350px;
+    }
+
+    h1 {
+        position: relative;
+        right: 35px;
+    }
+
+    #DescText {
+        position: relative;
+        right: 45px;
+    }
+
+    .PlanInfos {
+        position: relative;
+        right: 50px;
+    }
+
+    #ProceedBtn {
+        position: relative;
+        right: 50px;
+        height: 50px;
+        border-radius: 12px;
+        font-size: 16px;
+    }
+
+    #CancelBtn {
+        position: relative;
+        right: 40px;
+        font-size: 16px;
+    }
+}
