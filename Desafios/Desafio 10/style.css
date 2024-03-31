@@ -110,3 +110,41 @@ main article h2 {
 #ImgBugDroid {
     max-width: 350px;
 }
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #236240;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+footer a {
+    font-weight: bold;
+    color: white;
+}
+
+aside {
+    background-color: #C5EBD6;
+    margin-right: 18px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px black;
+}
+
+aside ul {
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: "\2714\00A0\00A0";
+}
+
+aside h3 {
+    background-color: #2FA866;
+    color: white;
+    padding: 5px;
+    margin: -10px -5px 0px -5px;
+    border-radius: 10px 10px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
