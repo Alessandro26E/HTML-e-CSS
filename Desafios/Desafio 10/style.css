@@ -8,8 +8,29 @@
     padding: 0px;
 }
 
+p {
+    margin: 15px 0px;
+    text-align: justify;
+    margin-right: 15px;
+    text-indent: 30px;
+    line-height: 1.4em;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(2, 55, 2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
 body {
-    background-color: white;
+    background-color: #84E1AD;
 }
 
 header {
@@ -34,12 +55,13 @@ header p {
     margin: auto;
     text-align: center;
     margin-top: 10px;
+   
 }
 
 nav {
     background-color: green;
     padding: 10px;
-    box-shadow: 1px 6px 15px black;
+    box-shadow: 0px 6px 15px black;
 }
 
 nav a {
@@ -58,21 +80,33 @@ nav a:hover {
     transition: .7s;
 }
 
-span {
+strong {
     color: green;
+    padding: 2px 0px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
     max-width: 1280px;
-    background-color: wheat;
+    background-color: white;
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
     box-shadow: 1px 6px 15px black;
+    padding-left: 20px;
+    padding-top: 25px;
 }
 
 main article h2 {
     font-family: "IDroid",Arial, Helvetica, sans-serif;
-    color: rgb(3, 62, 3);
-    padding: 20px;
+    background-image: linear-gradient(to right, #D1EFDF, transparent);
+    color: #236240;
+    font-size: 1.4em;
+    margin-right: 15px;
+    padding: 2px;
+}
+
+#ImgBugDroid {
+    max-width: 350px;
 }
