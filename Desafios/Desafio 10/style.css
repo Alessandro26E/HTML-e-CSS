@@ -51,8 +51,26 @@ header  h1 {
     color: white;
     font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
     padding-top: 25px;
+    font-weight: normal;
     font-size: 3;
     font-weight: 300;
+}
+
+.Video {
+    background-color: #2FA866;
+    margin-bottom: 30px;
+    margin-left: -20px;
+    padding: 20px;
+    padding-bottom: 55.5%;
+    position: relative;
+}
+
+.Video iframe {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 header p {
@@ -104,6 +122,8 @@ main {
     box-shadow: 1px 6px 15px black;
     padding-left: 20px;
     padding-top: 25px;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
 }
 
 main article h2 {
