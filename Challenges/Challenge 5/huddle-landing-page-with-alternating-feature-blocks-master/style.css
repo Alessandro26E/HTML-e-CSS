@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+:root {
+   --Pink: hsl(322, 100%, 66%);
+}
+
+
+button {
+    background-color: var(--Pink);
+}
