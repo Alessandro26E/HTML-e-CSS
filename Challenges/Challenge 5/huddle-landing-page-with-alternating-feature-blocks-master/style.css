@@ -225,6 +225,12 @@ aside {
     margin-top: 25px;
 }
 
+#FinalInfo button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px var(--Pink);
+    transition: .5s;
+}
+
 footer {
     background-color: var(--Very-Dark-Cyan);
     height: 400px;
