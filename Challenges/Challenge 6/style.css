@@ -17,7 +17,7 @@ body {
     font-family: "Outfit", sans-serif;
 }
 
-img {
+#PrincipalImage {
     width: 260px;
     height: 250px;
     margin-top: 10px;
@@ -26,15 +26,120 @@ img {
 
 .DivPrincipal {
     display: inline-block;
+    justify-content: center;
     width: 300px;
-    height: 450px;
+    height: 470px;
+    margin-top: 15vh;
     background-color: hsl(216, 50%, 16%);
     border-radius: 10px;
 }
 
 .DivPrincipal h1 {
-    color: white;
+    color: rgb(235, 225, 225);
     font-size: 18px;
     margin-left: -110px;
+    font-weight: 600;
     margin-top: 15px;
+}
+
+.DivPrincipal p {
+    color: hsl(0, 1%, 46%);
+    font-size: 17px;
+    width: 220px;
+    margin-top: 10px;
+    margin-left: 17px;
+    font-weight: 500;
+
+}
+
+.DivPrincipal h2 {
+    font-size: 16px;
+    font-weight: 550;
+    color:  hsl(178, 100%, 50%);
+    margin-top: -23px;
+    margin-left: -145px;
+}
+
+#EthereumICON {
+    width: 11px;
+    height: 18px;
+    margin-right: 245px;
+    margin-top: 10px;
+}
+
+#daysText {
+    color: hsl(0, 1%, 57%);
+    font-size: 15px;
+    margin-top: -46px;
+    margin-left: 140px;
+}
+
+#ClockIcon  {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: -25px;
+    left: 50px;
+}
+
+.DivPrincipal hr {
+    width: 260px;
+    margin-left: 25px;
+    margin-top: 13px;
+    border-color: rgb(121, 120, 120);
+}
+
+#Avatarimg {
+    width: 35px;
+    height: 35px;
+    border: solid;
+    border-color: rgb(230, 228, 225);
+    border-radius: 20px;
+    margin-left: -220px;
+    margin-top: 16px;
+}
+
+#CreationPartText {
+    margin-top: -30px;
+    margin-left: -3px;
+    font-size: 15px;
+}
+
+#CreatorNameText {
+    position: relative;
+    top: -20px;
+    margin-left: 84px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+#CreatorNameText:hover {
+    color: hsl(178, 100%, 50%);
+    transition: .5s;
+}
+
+.DivPrincipal .overlay {
+    position: absolute;
+    top: 117px;
+    border-radius: 10px;
+    left: 634px;
+    right: 0;
+    width: 260px;
+    height: 250px;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.DivPrincipal:hover #PrincipalImage {
+    opacity: 0.5;
+}
+
+.DivPrincipal:hover .overlay {
+    opacity: 1;
 }
