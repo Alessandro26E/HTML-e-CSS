@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    background-color: rgb(29, 29, 29);
+}
+
+.DivPrincipal {
+    width: 350px;
+    height: 550px;
+    margin: auto;
+    background-color: rgb(22, 22, 22);
+    border-style: solid;
+    border-color: rgb(48, 47, 47);
+    box-shadow: 2px 2px 15px 0.1px greenyellow;
+    border-radius: 10px;
+    position: relative;
+    top: 13vh;
+
+}
+
+#ProfileImg {
+    position: relative;
+    top: 40px;
+    margin: auto;
+    display: flex;
+    width: 90px;
+    border-radius: 50px;
+}
+
+#NameText {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+#LocateText {
+    color: rgb(157, 255, 44);
+    margin-top: 10px;
+    margin-left: 110px;
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+}
+
+/*Facebook Button*/
+
+#Button {
+    width: 270px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    color: white;
+    background-color: rgb(43, 43, 43);
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+
+
+#Button:hover {
+    background-color: rgb(157, 255, 44);
+    transition: 1s;
+    color: rgb(46, 46, 46);
+}
+
+#FacebookIcon {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -40px;
+    left: 20px;
+}
