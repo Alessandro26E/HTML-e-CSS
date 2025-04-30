@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: "Sriracha", cursive;
+    --font3: "Passion One", sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--font1);
+}
+
+body {
+    background-color: rgb(175, 175, 175);
+    min-height: 100vh;
+}
+
+body header {
+    background-color: black;
+    height: 200px;
+}
+
+body header h1 {
+    color: white;
+    font-size: 70px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: var(--font3);
+    font-variant: small-caps;
+}
+
+body header p {
+    color: white;
+    text-align: center;
+    font-family: var(--font1);
+}
+
+body header a {
+    color: white;
+    text-decoration: none;
+}
+
+body header a:hover {
+    text-decoration: underline; 
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 3em;
+    padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 1.5vw;
+}
+
+
+section.Normal {
+    background-color: white;
+    color: black;
+}
+
+section p {
+    font-family: var(--font2);
+    font-size: 2em;
+}
+
+section.Imagem {
+    box-shadow: inset 6px 6px 13px 0px rgb(59, 59, 59);
+}
+
+section.Imagem p {
+    color: white;
+    display: inline-block;
+    background-color: rgb(0, 0, 0, 255);
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+#Img1 {
+    background-image: url(Imagens/background001.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#Img2 {
+    background-image: url(Imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    padding-top: 5px;
+}
+
+header a, footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
