@@ -9,15 +9,23 @@
          body {
             background-color: black;
             height: 100vh;
-            background-image: url(Img/wallpaper003.jpg);
+           /* background-image: url(Img/wallpaper003.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
+            background-attachment: fixed;*/
+
+            background: black url(Img/wallpaper003.jpg) center center no-repeat fixed;
+            background-size: cover;
          }
+
+         /* Shorthand - background
+         color > image > position > repeat > [size] > attachment */
 
          main {
             background-color: white;
-            width: 400px;
+            max-width: 700px;
+            height: 1200px;
             padding: 10px;
             border-radius: 10px;
             border: 2px solid black;
@@ -28,7 +36,8 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio at quaerat veniam corrupti atque facilis, accusantium ipsam blanditiis error asperiores minus nisi, in nam eos delectus? Eligendi, consectetur eveniet?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio at quaerat veniam corrupti atque facilis, accusantium ipsam blanditiis error asperiores minus nisi, in nam eos delectus? Eligendi, consectetur eveniet? Lorem ipsum dolor sit amet, consectetur adipisicing elit. In provident tempore ex eum, animi excepturi aliquam culpa nulla, ab laboriosam voluptate perspiciatis necessitatibus vel quisquam, quidem optio doloremque earum cumque.
+        </p>
     </main>
 </body>
 </html>
