@@ -128,17 +128,39 @@ section h1 {
     transform: translate(100%) translateY(40%);
 }
 
+.AceleracaoDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    max-width: 1200px;
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 200px;
+}
+
 .AceleracaoDiv h1{
-    display: inline-block;
-    padding-top: 210px;
-    padding-right: 1000px;
-    margin: auto;
-    color: rgb(63, 63, 63);
+    color: rgb(0, 0, 0);
+    text-align: center;
     font-family: "Roboto";
-    font-weight: 400;
-    font-size: 6em;
+    font-weight: 500;
+    font-size: 6vw;
+    letter-spacing: 3px;
+    animation-name: CarNameAnim;
+    animation-duration: 3s;
+    margin-top: -100px;
+    margin-left: 10px;
+    padding: 0px;
+    
 }
 
 .AceleracaoDiv h1 span{
-    font-size: 25px;
+    font-size: 2vw;
+}
+
+.AceleracaoDiv p {
+    font-family: "Roboto";
+    margin-top: 170px;
+    width: 100vw;
+    margin-right: 200px;
 }
