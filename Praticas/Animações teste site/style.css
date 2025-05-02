@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 @font-face {
     font-family: "911 Porscha Laser", Verdana, Geneva, Tahoma, sans-serif;
@@ -19,7 +20,6 @@
     }
 }
 
-
 @keyframes titleslide {
     from {
         margin-right: 100%;
@@ -29,6 +29,11 @@
     to {
         opacity: 100%;
     }
+}
+
+@keyframes ButtonsAnim {
+
+    
 }
 
 @keyframes CarNameAnim {
@@ -43,6 +48,7 @@
 :root {
     --fontPorsch: "911 Porscha Laser", Verdana, Geneva, Tahoma, sans-serif;
     --font2: "Cal Sans", sans-serif;
+    --font3: "Nunito", sans-serif;
 }
 * {
     padding: 0px;
@@ -121,46 +127,102 @@ section h1 {
 }
 
 #FrontPorscheIcon {
-    position: absolute;
+    position: relative;
     left: 10%;
     right: 50%;
     width: 40vw;
     transform: translate(100%) translateY(40%);
 }
 
+.NavDiv {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 65px;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 17px;  
+}
+
+.ModeloDiv {
+    display: flex;
+    margin-right: 10px;
+    border: solid white;
+    height: 55px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 6px;
+    animation-name: CarNameAnim;
+    animation-duration: 2s;
+}
+
+.ConfigDiv {
+    display: flex;
+    margin-right: 10px;
+    border: solid white;
+    height: 55px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 6px;
+    animation-name: CarNameAnim;
+    animation-duration: 2s;
+}
+
+.usadoNovosDiv {
+    display: flex;
+    margin-right: 10px;
+    border: solid white;
+    height: 55px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 6px;
+    animation-name: CarNameAnim;
+    animation-duration: 2s;
+}
+
+.ModeloDiv:hover, .usadoNovosDiv:hover, .ConfigDiv:hover{
+    border: solid rgb(255, 255, 255);
+    background-color: white;
+}
+
+.NavDiv p:hover  {
+    color: black;
+}
+
+.NavDiv p {
+    color: white;
+    font-family: "Nunito";
+    padding: 15px;
+    font-weight: 500;
+}
+
+.AceleracaoContainer {
+    display: block;
+    text-size-adjust: 100%;
+    background-color: aqua;
+    width: 30vw;
+    height: 60vh;
+    margin-left: 120px;
+    margin-top: -280px;
+}
+
 .AceleracaoDiv {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center;  
+    align-items: center;  
+    background-color: aquamarine;
     width: 30vw;
-    max-width: 1200px;
-    height: 30vh;
-    background-color: rgba(0, 0, 0, 0.5);
-    margin-left: 200px;
+    height: 20vh;
+    margin: auto;
+    margin: 10px;
 }
 
-.AceleracaoDiv h1{
+.AceleracaoDiv h1 {
+    display: block;
     color: rgb(0, 0, 0);
-    text-align: center;
-    font-family: "Roboto";
-    font-weight: 500;
-    font-size: 6vw;
-    letter-spacing: 3px;
-    animation-name: CarNameAnim;
-    animation-duration: 3s;
-    margin-top: -100px;
-    margin-left: 10px;
-    padding: 0px;
-    
+    padding-top: 0px;
+    padding-left: 20px;
 }
 
-.AceleracaoDiv h1 span{
-    font-size: 2vw;
-}
-
-.AceleracaoDiv p {
-    font-family: "Roboto";
-    margin-top: 170px;
-    width: 100vw;
-    margin-right: 200px;
-}
