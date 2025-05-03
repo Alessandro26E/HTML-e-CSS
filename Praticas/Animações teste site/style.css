@@ -143,7 +143,6 @@ section h1 {
     height: 65px;
     margin: auto;
     border-radius: 10px;
-    font-size: 17px;  
 }
 
 .ModeloDiv {
@@ -151,9 +150,9 @@ section h1 {
     margin-right: 10px;
     border: solid white;
     height: 55px;
-    justify-content: center;
-    text-align: center;
     border-radius: 6px;
+    justify-content: center;
+    align-items: center;
     animation-name: CarNameAnim;
     animation-duration: 2s;
 }
@@ -163,9 +162,9 @@ section h1 {
     margin-right: 10px;
     border: solid white;
     height: 55px;
-    justify-content: center;
-    text-align: center;
     border-radius: 6px;
+    justify-content: center;
+    align-items: center;
     animation-name: CarNameAnim;
     animation-duration: 2s;
 }
@@ -175,9 +174,9 @@ section h1 {
     margin-right: 10px;
     border: solid white;
     height: 55px;
-    justify-content: center;
-    text-align: center;
     border-radius: 6px;
+    justify-content: center;
+    align-items: center;
     animation-name: CarNameAnim;
     animation-duration: 2s;
 }
@@ -194,7 +193,7 @@ section h1 {
 .NavDiv p {
     color: white;
     font-family: "Nunito";
-    padding: 15px;
+    padding: 1vw;
     font-weight: 500;
 }
 
@@ -216,7 +215,6 @@ section h1 {
     width: 30vw;
     height: 20vh;
     margin: auto;
-    margin: 10px;
 }
 
 .AceleracaoDiv h1 {
@@ -224,5 +222,8 @@ section h1 {
     color: rgb(0, 0, 0);
     padding-top: 0px;
     padding-left: 20px;
+    font-family: "Roboto";
+    font-weight: 500;
+    overflow: hidden;
 }
 

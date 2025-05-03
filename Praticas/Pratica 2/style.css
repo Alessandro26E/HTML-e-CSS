@@ -1,16 +1,37 @@
 @charset "UTF-8";
 
-img {
-    margin: auto;
-    display: block;
-    width: 350px;
-    height: 650px;
-    position: relative;
-    top: 30px;
-    border-radius: 20px;
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 body {
-    background-image: linear-gradient(to right,#fd8e4d,hwb(11 18% 3%),#BF307F, #A61F9D);
-    
+    background-color: rgb(71, 71, 71); 
+    height: 100vh;
+}
+
+.Container {
+    display: flex;
+    background-color: bisque;
+    width: 400px;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+header div {
+    background-color: rgb(5, 233, 233);
+    width: 400px;
+    height: 150px;
+    margin: 10px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+header div h1{
+    font-size: 40px;
 }
