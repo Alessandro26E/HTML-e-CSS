@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container {
+    background-color: rgb(107, 107, 107);
+    height: 200px;
+}
+
+header nav ul {
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    height: 40px;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+header nav ul li {
+    color: white;
+}
