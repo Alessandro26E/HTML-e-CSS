@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table .topo {
+    background-color: rgb(88, 88, 243);
+}
+table {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    vertical-align: top;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+}
