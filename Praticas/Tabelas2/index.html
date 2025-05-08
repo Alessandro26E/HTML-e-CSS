@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot {
+            color: white;
+            background-color: rgb(95, 94, 94);
+        }
+
+        thead tr th {
+            position: sticky;
+            top: 0;
+            background-color: rgb(95, 94, 94);
+        }
+
+        .numero {
+            text-align: right;
+            vertical-align: middle;
+        }
+
+        caption {
+            font-weight: bold;
+            font-size: 1.5em;
+            padding: 10px;
+            color: #ffffff;
+            font-variant: small-caps;
+            background-color: rgb(175, 175, 175);
+        }
+
+        .PopulationClass {
+            width: 50px;
+        }
+
+        /**
+            :nth-child(2n) "2n" E a colu,a tipo a cada 2 fica na cor lightgray
+            :nth-child(odd) e indo em e impar e "even" q e par
+            */
+        tbody tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>População das Cidades</caption>
+
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" class="PopulationClass">População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São paulo</td>
+                <td class="numero">45,919,049</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">15,989,565</td>
+            </tr>
+
+            
+            <tr>
+                <td>Parana</td>
+                <td class="numero">5,149,165</td>
+            </tr>
+
+            <tr>
+                <td>Belo Horizonte</td>
+                <td class="numero">540,235</td>
+            </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">1,540,235</td>
+            </tr>
+
+            <tr>
+                <td>Parana</td>
+                <td class="numero">5,149,165</td>
+            </tr>
+
+            <tr>
+                <td>Parana</td>
+                <td class="numero">5,149,165</td>
+            </tr>
+
+            <tr>
+                <td>Parana</td>
+                <td class="numero">5,149,165</td>
+            </tr>
+
+            <tr>
+                <td>Parana</td>
+                <td class="numero">5,149,165</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="numero">5,149,165</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="numero">5,149,165</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="numero">5,149,165</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="numero">5,149,165</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row"><strong>Total de Habitantes</strong></th>
+                <td><strong>122,500</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

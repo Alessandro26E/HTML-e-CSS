@@ -10,12 +10,16 @@ table .topo {
 table {
     width: 250px;
     height: 250px;
-    text-align: center;
-    vertical-align: top;
     border-collapse: collapse;
 }
 
 td {
     padding: 10px;
     border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.numero {
+    text-align: right;
 }
