@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --NotoFont:"Noto Sans", sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(2, 2, 2);
+}
+
+.top-container {
+    background-color: rgba(78, 78, 78,0);
+    width: 100vw;
+    height: 55px;
+    display: flex;
+}
+
+.top-container .spotify-logo {
+    height: 30px;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.top-container .back-house-icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(29, 29, 29);
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 8px;
+}
+
+.top-container .back-house-icon .house-icon {
+    width: 50px;
+    height: 20px;
+}
+
+.seach-bar {
+    display: flex;
+    background-color: rgba(34, 34, 34);
+    width: 100%;
+    max-width: 450px;
+    min-width: 250px;
+    height: 40px;
+    margin-top: 8px;
+    margin-left: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+.seach-bar:hover {
+    background-color: rgb(48, 48, 48);
+    border: 1px solid rgba(117, 117, 117, 0.5);
+}
+
+.seach-bar .icon-search {
+    position: absolute;
+    top: 50%;
+    left: -1%;
+    transform: translatey(-50%);
+    width: 50px;
+    height: 20px;
+}
+
+.seach-bar p {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 40px;
+    color: rgb(148, 148, 148);
+    font-family: var(--NotoFont);
+    font-size: 0.9rem;
+}
+
+
+
+.seach-bar .archive-icon {
+    position: absolute;
+    top: 50%;
+    right: 13px; /* você pode ajustar conforme a distância desejada da borda */
+    transform: translateY(-50%);
+    width: 22px;
+    height: auto;
+    transition: all 0.3s ease-out;
+}
+
+.seach-bar .archive-icon:hover {
+    fill: white;
+    width: 23px;
+    height: auto;
+}
+
+.top-container .top-nav-list {
+    width: 300px;
+    background-color: rgba(0, 255, 13, 0);
+}
+.navs-container {
+    background-color: rgba(238, 0, 0, 0);
+    width: 35vw;
+    display: flex;
+}
+
+.top-container .second-top-nav-list {
+    background-color: rgba(212, 0, 255, 0);
+    width: 400px;
+
+}
+
+.top-container .top-nav-list ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+    color: rgb(196, 194, 194);
+    list-style: none;
+    font-family: var(--NotoFont);
+    font-weight: bold;
+    font-size: 0.85rem;
+    gap: 20px;
+
+}
+
+.top-container .top-nav-list ul li:nth-child(3)::after {
+    content: "|";
+    margin-left: 10px;
+}
+
+.top-container .second-top-nav-list {
+    position: relative;
+    display: flex;
+    list-style: none;
+    font-family: var(--NotoFont);
+    font-weight: bold;
+    font-size: 0.85rem;
+    color: rgb(196, 194, 194);
+    align-items: center;
+    padding-left: 15px;
+}
+
+.top-container .second-top-nav-list p {
+    padding-left: 20px;
+    transition: all 0.3s ease-out;
+}
+
+.top-container .second-top-nav-list .download-icon {
+    position: absolute;
+    width: auto;
+    height: 20px;
+    margin-left: -25px;
+}
+
+.top-container .second-top-nav-list button {
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    font-family: var(--NotoFont);
+    font-weight: bold;
+    margin-left: 10px;
+    transition: transform 0.3s ease-out;
+}
+
+.second-container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.top-container .top-nav-list ul li {
+    transition: transform 0.3s ease-out;
+}
+.top-container .top-nav-list ul li:hover {
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.top-container .second-top-nav-list p:hover svg,.top-container .second-top-nav-list p:hover  {
+    color: white;
+    fill: white;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.top-container .second-top-nav-list button:hover {
+    transform: scale(1.05);
+}
