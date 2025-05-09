@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+
+@import url(https://fonts.google.com/noto/specimen/Noto+Sans);
+
+:root {
+    --NotoFont: "Noto Sans", sans-serif;
+    --DarkGradient: linear-gradient(180deg, #040918 0%, #091540 100%);
+    --LightGradient: linear-gradient(180deg, #EBF2FC 0%, #EEF8F9 100%);
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: var(--DarkGradient);
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .search-bar{
+    display: flex;
+    background-color: hsl(226, 25%, 17%);
+    border-radius: 15px;
+    width: 1200px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+
+#logo-img {
+    height: 35px;
+}
+
+#sun-icon {
+    height: 20px;
+}
+
+.container .search-bar .theme-div {
+    background-color: hsl(225, 23%, 24%);
+    border-radius: 7px;
+    width: 40px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.container .search-bar .theme-div:hover {
+    cursor: pointer;
+    background-color: hsl(226, 11%, 37%);
+    transition: all 0.3s ease;
+}
+
+.second-container {
+    display: flex;
+    width: 100vw;
+    height: 800px;
+    overflow: hidden;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.main-section {
+    padding-top: 20px;
+    display: flex;
+    width: 1200px;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.main-section .main-div h1 {
+    color: white;
+    font-family: var(--NotoFont);
+    font-weight: 700;
+}
+
+.main-section nav .all-btn {
+    width: 50px;
+    background-color: hsl(3, 86%, 64%);
+    border: 1px solid hsl(3, 86%, 64%);
+}
+
+.main-section nav button {
+    margin-left: 5px;
+    font-family: var(--NotoFont);
+    color: rgb(255, 255, 255);
+    background-color: hsl(225, 23%, 24%);
+    border: 1px solid hsl(226, 11%, 37%);
+    width: 70px;
+    height: 30px;
+   
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+
+.main-section nav button:hover {
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(226, 11%, 37%);
+    border: 1px solid hsl(226, 11%, 37%);
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+
+.second-container .item-list {
+    display: flex;
+    gap: 10px;
+    background-color: rgba(37, 95, 255,0);
+    width: 1200px;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.back-padrao {
+    background-color: hsl(226, 25%, 17%);
+    border: 1px solid hsl(226, 11%, 37%);
+    border-radius: 20px;
+    height: 170px;
+    width: 380px;
+.second-container .item-list {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    width: 1200px;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+}
+
+.back-padrao .back-second-div {
+    display: flex;
+}
+
+.back-padrao .back-second-div h1 {
+    color: white;
+    font-family: var(--NotoFont);
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.back-padrao .back-second-div p {
+    padding-top: 5px;
+    color: hsl(0, 0%, 78%);
+    font-family: var(--NotoFont);
+    font-size: 12px;
+}
+
+.back-padrao img {
+    padding: 10px;
+    height: 65px;
+}
+
+.back-padrao .back-desc-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-container .item-list button {
+    color: white;
+    font-size: 10px;
+    font-family: var(--NotoFont);
+    background-color: hsl(226, 25%, 17%);
+    border: 1px solid hsl(226, 11%, 37%);
+    border-radius: 20px;
+    width: 70px;
+    height: 27px;
+    margin-top: 65px;
+    margin-left: 10px;
+    transition: all 0.5s ease;
+}
+
+.second-container .item-list button:hover {
+    cursor: pointer;
+    color: hsl(226, 25%, 17%);
+    background-color: hsl(3, 86%, 64%);
+    border: 1px solid hsl(3, 86%, 64%);
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+.second-container .item-list .active-bar {
+    background-color: hsl(226, 11%, 37%);
+    border-radius: 30px;
+    width: 40px;
+    height: 19px;
+    margin-top: -15px;
+    margin-left: 320px;
+    position: relative;
+}
+
+
+
+.second-container .item-list .active-bar .active-bar-ball {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 1px;
+    transform: translateY(7%);
+    border-radius: 30px;
+    width: 16px;
+    height: 16px;
+}
+
+.second-container .item-list .active-bar .active-bar-ball:hover {
+    cursor: pointer;
+}
+
+
+
+@media  (min-width: 768px) and (max-width: 1024px) {
+  .container .search-bar {
+    width: 800px;
+  }
+}
