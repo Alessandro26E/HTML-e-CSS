@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --NotoFont:"Noto Sans", sans-serif;
+    --NotoFont: "Noto Sans", sans-serif;
     --RalewayFont: "Raleway", sans-serif;
 }
 
@@ -16,11 +16,11 @@
 
 body {
     background-color: rgb(2, 2, 2);
-      overflow: hidden;
+    overflow: hidden;
 }
 
 .top-container {
-    background-color: rgba(78, 78, 78,0);
+    background-color: rgba(78, 78, 78, 0);
     width: 100vw;
     height: 55px;
     display: flex;
@@ -80,6 +80,7 @@ body {
     transform: scale(1.1);
     background-color: rgb(48, 48, 48);
 }
+
 .seach-bar {
     display: flex;
     background-color: rgba(34, 34, 34);
@@ -125,7 +126,8 @@ body {
 .seach-bar .archive-icon {
     position: absolute;
     top: 50%;
-    right: 13px; /* você pode ajustar conforme a distância desejada da borda */
+    right: 13px;
+    /* você pode ajustar conforme a distância desejada da borda */
     transform: translateY(-50%);
     width: 22px;
     height: auto;
@@ -142,6 +144,7 @@ body {
     width: 300px;
     background-color: rgba(0, 255, 13, 0);
 }
+
 .navs-container {
     background-color: rgba(238, 0, 0, 0);
     width: 38vw;
@@ -188,7 +191,7 @@ body {
     padding-left: 20px;
     transition: all 0.3s ease-out;
 }
-    
+
 
 .top-container .second-top-nav-list .download-icon {
     position: absolute;
@@ -219,13 +222,15 @@ body {
 .top-container .top-nav-list ul li {
     transition: transform 0.3s ease-out;
 }
+
 .top-container .top-nav-list ul li:hover {
     color: white;
     cursor: pointer;
     transform: scale(1.05);
 }
 
-.top-container .second-top-nav-list p:hover svg,.top-container .second-top-nav-list p:hover  {
+.top-container .second-top-nav-list p:hover svg,
+.top-container .second-top-nav-list p:hover {
     color: white;
     fill: white;
     transform: scale(1.05);
@@ -237,7 +242,8 @@ body {
 }
 
 .blibioteca-section {
-    background-image: linear-gradient(180deg,rgb(22, 21, 21) 0%, rgba(13, 13, 13, 1) 28%, rgb(3, 3, 3) 100%);;
+    background-image: linear-gradient(180deg, rgb(22, 21, 21) 0%, rgba(13, 13, 13, 1) 28%, rgb(3, 3, 3) 100%);
+    ;
     width: 460px;
     margin: 5px;
     height: 86vh;
@@ -356,12 +362,12 @@ body {
     font-weight: bold;
     font-size: 0.75rem;
     transition: transform 0.3s ease;
-} 
+}
 
 
 .divs-playlist .playlist-div .podcast-btn {
     width: 120px;
-} 
+}
 
 .divs-playlist .playlist-div button:hover {
     transform: scale(1.05);
@@ -370,10 +376,10 @@ body {
 .div-sobre {
     color: rgb(139, 139, 139);
     font-family: var(--RalewayFont);
-    font-size: 11px;
+    font-size: 0.8em;
     font-weight: 600;
-    margin-left: 20px;
-    margin-top: 350px;
+    margin-left: 5%;
+    margin-top: 30vh;
 }
 
 .div-sobre ul {
@@ -412,16 +418,17 @@ body {
     transform: scale(1.05);
 }
 
-
 footer {
     display: flex;
     justify-content: space-between;
-    width: 99.5vw;
+    width: 99%;
+    max-width: 100vw; 
     height: 55px;
-    background-image: linear-gradient(90deg,rgba(245, 110, 245, 1) 0%, rgba(205, 148, 255, 1) 50%, rgba(191, 245, 255, 1) 100%);
-    padding: 10px;
-    margin: 5px;
+    background-image: linear-gradient(90deg, rgba(245, 110, 245, 1) 0%, rgba(205, 148, 255, 1) 50%, rgba(191, 245, 255, 1) 100%);
+    padding: 10px 20px;
     border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
 }
 
 footer button {
@@ -440,7 +447,7 @@ footer button:hover {
 
 footer .footer-text {
     color: white;
-    
+
     font-family: var(--NotoFont);
     font-size: 0.8rem;
 }
@@ -455,15 +462,15 @@ footer .footer-text p:nth-child(1) {
 
 .section-musicas {
     display: flex;
-    background-image: linear-gradient(180deg,rgba(46, 45, 45, 1) 0%, rgba(13, 13, 13, 1) 28%, rgba(19, 19, 19, 1) 100%);
+    background-image: linear-gradient(180deg, rgba(46, 45, 45, 1) 0%, rgba(13, 13, 13, 1) 28%, rgba(19, 19, 19, 1) 100%);
     border-radius: 6px;
-    width: 97vw;
+    width: 75vw;
     margin: 5px;
     flex-direction: column;
     position: relative;
 }
 
-.section-musicas .musica-div a img{
+.section-musicas .musica-div a img {
     width: 185px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 5px;
@@ -480,7 +487,7 @@ footer .footer-text p:nth-child(1) {
 }
 
 .section-musicas .musica-div:hover {
-    background-image: linear-gradient(180deg,rgba(31, 30, 30, 0) 0%, rgba(46, 46, 46, 1) 35%, rgba(19, 19, 19, 1) 100%);
+    background-image: linear-gradient(180deg, rgba(31, 30, 30, 0) 0%, rgba(46, 46, 46, 1) 35%, rgba(19, 19, 19, 1) 100%);
     border-radius: 10px;
     transition: background-image 2s ease;
 }
@@ -499,7 +506,7 @@ footer .footer-text p:nth-child(1) {
 }
 
 .section-musicas .musica-div .text-div p {
-    font-family: "Roboto";  
+    font-family: "Roboto";
     color: rgb(156, 156, 156);
     font-size: 0.8rem;
 }
@@ -518,10 +525,54 @@ footer .footer-text p:nth-child(1) {
     font-family: var(--NotoFont);
 }
 
-.all-musics-container {
-    background-color: red;
-    width: 100vw;
-    height: auto;
+
+.section-musicas .artistas-div a img {
+    width: 185px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 100px;
+}
+
+.section-musicas .artistas-div {
     display: flex;
     flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+}
+
+.section-musicas .artistas-div:hover {
+    background-image: linear-gradient(180deg, rgba(31, 30, 30, 0) 0%, rgba(46, 46, 46, 1) 35%, rgba(19, 19, 19, 1) 100%);
+    border-radius: 10px;
+    transition: background-image 2s ease;
+}
+
+.section-musicas .artistas-div .text-div {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    height: 100px;
+}
+
+.section-musicas .artistas-div .text-div h1 {
+    font-family: var(--RalewayFont);
+    color: rgb(224, 224, 224);
+    font-size: 1rem;
+}
+
+.section-musicas .artistas-div .text-div p {
+    font-family: "Roboto";
+    color: rgb(156, 156, 156);
+    font-size: 0.8rem;
+}
+
+@media (min-width: 700px) and (max-width: 1024px) {
+    .div-sobre {
+        margin-top: 500px;
+    }
+
+    .top-container .back-house-icon {
+        opacity: 0;
+    }
 }
