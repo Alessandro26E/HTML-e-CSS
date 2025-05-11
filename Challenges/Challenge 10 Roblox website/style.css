@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --nav_back_color: #121215;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(73, 73, 73);
+    height: 100%;
+}
+
+header .top-nav-div {
+    display: flex;
+    background-color: #121215;
+    width: 100vw;
+    height: 40px;
+}
+
+#roblox-logo {
+    height: 34px;
+    margin-left: 5px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+header .top-nav-div nav {
+    margin-left: 30px;
+    display: flex;
+    color: white;
+    list-style: none;
+    font-family: "Roboto";
+    height: 100%;
+    width: 350px;
+    cursor: pointer;
+    text-align: center;
+}
+header .top-nav-div nav a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    height: 40px;
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px 20px 10px;
+}
+header .top-nav-div nav a::after {
+    content: "";
+    width: 100%;
+    height: 1%;
+    position: absolute;
+    top: 98%;
+    left: 0;
+    background-color: white;
+    opacity: 0;
+
+}
+
+header .top-nav-div nav a:hover::after {
+    opacity: 1;
+} 
+
+.search-box {
+    background-color: var(--nav_back_color);
+    border: 1px solid rgb(70, 70, 70);
+    border-radius: 8px;
+    margin-left: 50px;
+    height: 28px;
+    width: 400px;
+    min-width: 200px;
+    margin-top: 5px;
+    position: relative;
+}
+
+#search-icon {
+    margin-top: 2px;
+    margin-left: 3px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.search-box input {
+    position: absolute;
+    width: 93%;
+    height: 100%;
+    border-radius: 8px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: "Roboto";
+    font-size: 0.96rem;
+}
+
+.search-box input::placeholder {
+    font-size: 1rem;
+    font-family: "Roboto";
+    text-align: start;
+    color: rgb(136, 130, 130);
+}
+
+.infos-div {
+    display: flex;
+    width: 285px;
+   margin-left: 340px;
+}
+
+.infos-div .div-user-logo {
+    background-color: rgb(221, 220, 220);
+    border-radius: 50px;
+    width: 35px;
+    height: 80%;
+    position:relative;
+    margin-top: 5px;
+    overflow: hidden;
+    margin-left: 5px;
+
+}
+
+#user-logo {
+    position: absolute;
+    height: 27px;
+    left: 10%;
+    top: 20%;
+    cursor: pointer;
+}
+
+#username-text {
+    color: white;
+    font-family: "Roboto";
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-left: 5px;
+    font-size: 0.7rem;
+}
+
+#username-text:hover {
+    text-decoration: underline;
+}
+.idade-text {
+    color: rgb(189, 188, 188);
+    font-family: "Roboto";
+    margin-top: 15px;
+    font-size: 0.6rem;
+    margin-left: 5px;
+}
+
+.idade-text:hover {
+    font-size: 0.65rem;
+}
+
+.notify-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.notify-logo svg {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    cursor: pointer;
+}
+
+.notify-logo .notify {
+    color: white;
+    background-color: rgb(231, 0, 0);
+    padding: 3px;
+    position: absolute;
+    top: 10px;
+    transform: translateY(-40%) translateX(90%);
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    border: 1px solid var(--nav_back_color);
+}
+
+.notify-logo .notify p {
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: -2px;
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.robux-div {
+    display: flex;
+
+    width: 70px;
+    margin-left: 10px;
+    align-items: center;
+    padding-left: 5px;
+}
+
+#robux-logo {
+    height: 24px;
+    width: 23px;
+    cursor: pointer;
+}
+
+#robux-text {
+    padding-left: 5px;
+    color: white;
+    font-family:"Outfit";
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#config-icon {
+    padding-left: 10px;
+    margin-top: 5px;
+    height: 30px;
+    width: 40px;
+    cursor: pointer;
+}
