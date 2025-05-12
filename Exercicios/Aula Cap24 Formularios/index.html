@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <style>
+        body {
+            background-color: rgb(75, 75, 75);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cadastro Formulario</h1>
+    <form action="cadastro.php" autocomplete="on" method="post">
+        <p><label for="userid">Usuario:</label> 
+            <input type="text" id="userid" autocomplete="username" minlength="5" placeholder="Digite seu nome de Usuario" required></p>
+
+            <p><label for="passwordid">Senha:</label> <input type="password" autocomplete="current-password" minlength="5" id="passwordid" placeholder="Digite sua senha" required></p>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
