@@ -26,12 +26,12 @@
 
                 <div class="search-box">
                     <svg xmlns="http://www.w3.org/2000/svg" id="search-icon" width="24" height="24" viewBox="0 0 24 24"
-                        style="fill: rgb(136, 130, 130);transform: ;msFilter:;">
+                        style="fill: rgb(136, 130, 130)">
                         <path
                             d="M19.023 16.977a35.13 35.13 0 0 1-1.367-1.384c-.372-.378-.596-.653-.596-.653l-2.8-1.337A6.962 6.962 0 0 0 16 9c0-3.859-3.14-7-7-7S2 5.141 2 9s3.14 7 7 7c1.763 0 3.37-.66 4.603-1.739l1.337 2.8s.275.224.653.596c.387.363.896.854 1.384 1.367l1.358 1.392.604.646 2.121-2.121-.646-.604c-.379-.372-.885-.866-1.391-1.36zM9 14c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z">
                         </path>
                     </svg>
-                    <input type="text" placeholder="Search">
+                    <input type="text" placeholder="Search" autocomplete="off">
                 </div>
 
                 <div class="infos-div">
@@ -44,7 +44,7 @@
 
                     <div class="notify-logo">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;">
+                            style="fill: rgba(255, 255, 255, 1)">
                             <path
                                 d="M12 22a2.98 2.98 0 0 0 2.818-2H9.182A2.98 2.98 0 0 0 12 22zm7-7.414V10c0-3.217-2.185-5.927-5.145-6.742C13.562 2.52 12.846 2 12 2s-1.562.52-1.855 1.258C7.185 4.074 5 6.783 5 10v4.586l-1.707 1.707A.996.996 0 0 0 3 17v1a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-1a.996.996 0 0 0-.293-.707L19 14.586z">
                             </path>
@@ -60,7 +60,7 @@
                     </div>
 
                     <svg id="config-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;">
+                        style="fill: rgba(255, 255, 255, 1)">
                         <path
                             d="M12 16c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4zm0-6c1.084 0 2 .916 2 2s-.916 2-2 2-2-.916-2-2 .916-2 2-2z">
                         </path>
@@ -73,9 +73,322 @@
 
             </div>
 
+
+
         </div>
 
     </header>
+
+    <div class="background-container">
+
+        <section class="vertical-nav-container">
+
+            <div class="user-icon-second-nav">
+                <div class="second-user-back">
+                    <img id="user-second-nav-icon" src="Imagens/perfil_user.webp" alt="">
+                </div>
+                <p>15kAlezx</p>
+            </div>
+
+            <div class="vertical-nav">
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-person" viewBox="0 0 16 16">
+                        <path
+                            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                    </svg>Profile</a>
+
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chat-left-text" viewBox="0 0 16 16">
+                        <path
+                            d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                        <path
+                            d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6m0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5" />
+                    </svg>Messages</a>
+
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-people" viewBox="0 0 16 16">
+                        <path
+                            d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
+                    </svg>Friends</a>
+
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-person-gear" viewBox="0 0 16 16">
+                        <path
+                            d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0M8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m.256 7a4.5 4.5 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10q.39 0 .74.025c.226-.341.496-.65.804-.918Q8.844 9.002 8 9c-5 0-6 3-6 4s1 1 1 1zm3.63-4.54c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382zM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0" />
+                    </svg>Avatar</a>
+
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-backpack3" viewBox="0 0 16 16">
+                        <path
+                            d="M4.04 7.43a4 4 0 0 1 7.92 0 .5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14M4 9.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm1 .5v3h6v-3h-1v.5a.5.5 0 0 1-1 0V10z" />
+                        <path
+                            d="M6 2.341V2a2 2 0 1 1 4 0v.341c.465.165.904.385 1.308.653l.416-1.247a1 1 0 0 1 1.748-.284l.77 1.027a1 1 0 0 1 .15.917l-.803 2.407C13.854 6.49 14 7.229 14 8v5.5a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 13.5V8c0-.771.146-1.509.41-2.186l-.802-2.407a1 1 0 0 1 .15-.917l.77-1.027a1 1 0 0 1 1.748.284l.416 1.247A6 6 0 0 1 6 2.34ZM7 2v.083a6 6 0 0 1 2 0V2a1 1 0 1 0-2 0m5.941 2.595.502-1.505-.77-1.027-.532 1.595q.447.427.8.937M3.86 3.658l-.532-1.595-.77 1.027.502 1.505q.352-.51.8-.937M8 3a5 5 0 0 0-5 5v5.5A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5V8a5 5 0 0 0-5-5" />
+                    </svg>Inventory</a>
+
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5" />
+                    </svg>Trade</a>
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-bar-chart" viewBox="0 0 16 16">
+                        <path
+                            d="M4 11H2v3h2zm5-4H7v7h2zm5-5v12h-2V2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1z" />
+                    </svg>Communities</a>
+
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        style="fill: rgba(255, 255, 255, 1);transform: rotate(90deg);">
+                        <path
+                            d="M17.895 3.553A1.001 1.001 0 0 0 17 3H7c-.379 0-.725.214-.895.553l-4 8a1 1 0 0 0 0 .895l4 8c.17.338.516.552.895.552h10c.379 0 .725-.214.895-.553l4-8a1 1 0 0 0 0-.895l-4-7.999zM19.382 11h-7.764l-3-6h7.764l3 6zM4.118 12 7 6.236 9.882 12 7 17.764 4.118 12zm12.264 7H8.618l3-6h7.764l-3 6z">
+                        </path>
+                    </svg>Premium</a>
+
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        style="fill: rgba(255, 255, 255, 1);transform: rotate(90deg);">
+                        <path
+                            d="M3 11h8V3H3zm2-6h4v4H5zM3 21h8v-8H3zm2-6h4v4H5zm8-12v8h8V3zm6 6h-4V5h4zm-5.99 4h2v2h-2zm2 2h2v2h-2zm-2 2h2v2h-2zm4 0h2v2h-2zm2 2h2v2h-2zm-4 0h2v2h-2zm2-6h2v2h-2zm2 2h2v2h-2z">
+                        </path>
+                    </svg>Blog</a>
+
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-cart-plus" viewBox="0 0 16 16">
+                        <path
+                            d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z" />
+                        <path
+                            d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                    </svg>Official Store</a>
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-credit-card" viewBox="0 0 16 16">
+                        <path
+                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z" />
+                        <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                    </svg>Gift Cards</a>
+
+                <button id="premium-btn">Get Premium</button>
+
+            </div>
+        </section>
+
+        <main class="principal-container">
+            <h1 id="home-title">Home</h1>
+            <h1 id="friends-title">Friends (57)</h1>
+
+            <div class="players-div">
+
+                <div class="players-box">
+
+                    <div class="player-back">
+                        <img id="player-icon-box" src="Imagens/perfil_user.webp">
+
+
+                    </div>
+
+                    <div class="online-back online">
+                        <svg id="player-online-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="white" class="bi bi-person" viewBox="0 0 16 16">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                        </svg>
+                    </div>
+
+                    <a class="player-name" href="#">15kAlezx</a>
+                </div>
+
+                <div class="players-box">
+
+                    <div class="player-back">
+                        <img id="player-icon-box" src="Imagens/DogePerfil.webp">
+                    </div>
+
+                    <div class="online-back online">
+                        <svg id="player-online-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="white" class="bi bi-person" viewBox="0 0 16 16">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                        </svg>
+                    </div>
+
+                    <a class="player-name" href="#">DOGE</a>
+                </div>
+
+                <div class="players-box">
+
+                    <div class="player-back">
+                        <img id="player-icon-box" src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-79B380119537CD87EE63E7D9CBC51DC6-Png/150/150/AvatarHeadshot/Webp/noFilter">
+                    </div>
+
+                    <div class="online-back online">
+                        <svg id="player-online-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="white" class="bi bi-person" viewBox="0 0 16 16">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                        </svg>
+                    </div>
+
+                    <a class="player-name" href="#">AzureLegacy</a>
+                </div>
+
+                <div class="players-box">
+
+                    <div class="player-back">
+                        <img id="player-icon-box" src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-4CB617A0A531BBF226EFED1EC5F69874-Png/150/150/AvatarHeadshot/Webp/noFilter">
+                    </div>
+
+                    <div class="online-back online">
+                        <svg id="player-online-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="white" class="bi bi-person" viewBox="0 0 16 16">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                        </svg>
+                    </div>
+
+                    <a class="player-name" href="#">brteteu1</a>
+                </div>
+
+                 <div class="players-box">
+
+                    <div class="player-back">
+                        <img id="player-icon-box" src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-3014B0823F36C4D6A83F65E2C31C7B39-Png/150/150/AvatarHeadshot/Webp/noFilter">
+                    </div>
+
+                    <div class="online-back online">
+                        <svg id="player-online-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="white" class="bi bi-person" viewBox="0 0 16 16">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                        </svg>
+                    </div>
+
+                    <a class="player-name" href="#">jurandir</a>
+                </div>
+
+                 <div class="players-box">
+
+                    <div class="player-back">
+                        <img id="player-icon-box" src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-56E10BA23F79DCDDC9402AFEAF67405A-Png/150/150/AvatarHeadshot/Webp/noFilter">
+                    </div>
+
+                    <div class="online-back off">
+                        <svg id="player-online-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="white" class="bi bi-person" viewBox="0 0 16 16">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                        </svg>
+                    </div>
+
+                    <a class="player-name" href="#">JAVARINI</a>
+                </div>
+
+                <div class="players-box">
+
+                    <div class="player-back">
+                        <img id="player-icon-box" src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-B8A9391C8CBB2AA218BC944543122216-Png/150/150/AvatarHeadshot/Webp/noFilter">
+                    </div>
+
+                    <div class="online-back off">
+                        <svg id="player-online-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="white" class="bi bi-person" viewBox="0 0 16 16">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                        </svg>
+                    </div>
+
+                    <a class="player-name" href="#">DJ_RasgaKu</a>
+                </div>
+
+                <div class="players-box">
+
+                    <div class="player-back">
+                        <img id="player-icon-box" src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-C382196988D4C4CE68406DF404DAB1BF-Png/150/150/AvatarHeadshot/Webp/noFilter">
+                    </div>
+
+                    <div class="online-back off">
+                        <svg id="player-online-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="white" class="bi bi-person" viewBox="0 0 16 16">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                        </svg>
+                    </div>
+
+                    <a class="player-name" href="#">ZxNetoXz1</a>
+                </div>
+
+                <div class="players-box">
+
+                    <div class="player-back">
+                        <img id="player-icon-box" src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-11CDBC3BD6FE36055D89231C6479E72C-Png/150/150/AvatarHeadshot/Webp/noFilter">
+                    </div>
+
+                    <div class="online-back off">
+                        <svg id="player-online-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="white" class="bi bi-person" viewBox="0 0 16 16">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                        </svg>
+                    </div>
+
+                    <a class="player-name" href="#">Dendlsfpss</a>
+                </div>
+
+                 <div class="players-box">
+
+                    <div class="player-back">
+                        <img id="player-icon-box" src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-7458926215CA9F565521A0B7A16B12DD-Png/150/150/AvatarHeadshot/Webp/noFilter">
+                    </div>
+
+                    <div class="online-back off">
+                        <svg id="player-online-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="white" class="bi bi-person" viewBox="0 0 16 16">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                        </svg>
+                    </div>
+
+                    <a class="player-name" href="#">Pitzinblox</a>
+                </div>
+
+                <div class="players-box">
+
+                    <div class="player-back">
+                        <img id="player-icon-box" src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-AB41C9CEE2F9CBC83E943B7E145DC8A7-Png/150/150/AvatarHeadshot/Webp/noFilter">
+                    </div>
+
+                    <div class="online-back off">
+                        <svg id="player-online-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="white" class="bi bi-person" viewBox="0 0 16 16">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                        </svg>
+                    </div>
+
+                    <a class="player-name" href="#">casynho2</a>
+                </div>
+
+                <div class="players-box">
+
+                    <div class="player-back">
+                        <img id="player-icon-box" src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-7665D2E82AEBC4DD2582B9C52091D5EB-Png/150/150/AvatarHeadshot/Webp/noFilter">
+                    </div>
+
+                    <div class="online-back off">
+                        <svg id="player-online-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="white" class="bi bi-person" viewBox="0 0 16 16">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                        </svg>
+                    </div>
+
+                    <a class="player-name" href="#">lucasis2</a>
+                </div>
+            </div>
+
+            
+
+    </div>
+
+    </main>
+
+    </div>
 </body>
 
 </html>
