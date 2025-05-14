@@ -28,7 +28,7 @@ header .top-nav-div {
 .container .second-container {
     width: 100%;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 #roblox-logo {
@@ -50,7 +50,8 @@ header .top-nav-div nav {
     text-align: center;
     margin: 0 auto;
 }
-header .top-nav-div nav a{
+
+header .top-nav-div nav a {
     color: white;
     text-decoration: none;
     position: relative;
@@ -59,6 +60,7 @@ header .top-nav-div nav a{
     padding: 8px 40px;
     font-weight: bold;
 }
+
 header .top-nav-div nav a::after {
     content: "";
     width: 100%;
@@ -73,7 +75,7 @@ header .top-nav-div nav a::after {
 
 header .top-nav-div nav a:hover::after {
     opacity: 1;
-} 
+}
 
 .search-box {
     background-color: var(--nav_back_color);
@@ -125,7 +127,7 @@ header .top-nav-div nav a:hover::after {
     border-radius: 50px;
     width: 25px;
     height: 80%;
-    position:relative;
+    position: relative;
     margin-top: 2px;
     overflow: hidden;
     margin-left: 5px;
@@ -135,7 +137,7 @@ header .top-nav-div nav a:hover::after {
 #user-logo {
     position: absolute;
     height: 21px;
-    left:2%;
+    left: 2%;
     top: 12%;
     cursor: pointer;
 }
@@ -153,6 +155,7 @@ header .top-nav-div nav a:hover::after {
 #username-text:hover {
     text-decoration: underline;
 }
+
 .idade-text {
     color: rgb(189, 188, 188);
     font-family: "Roboto";
@@ -216,7 +219,7 @@ header .top-nav-div nav a:hover::after {
 #robux-text {
     padding-left: 5px;
     color: white;
-    font-family:"Outfit";
+    font-family: "Outfit";
     font-weight: 500;
     cursor: pointer;
     font-size: 0.9rem;
@@ -252,7 +255,7 @@ header .top-nav-div nav a:hover::after {
     color: rgb(168, 168, 168);
 }
 
-.vertical-nav  a svg:hover {
+.vertical-nav a svg:hover {
     fill: black;
 }
 
@@ -287,7 +290,7 @@ header .top-nav-div nav a:hover::after {
 }
 
 .vertical-nav-container .user-icon-second-nav p:hover {
-   color: rgb(168, 168, 168);
+    color: rgb(168, 168, 168);
 }
 
 .vertical-nav-container .user-icon-second-nav:hover {
@@ -314,11 +317,11 @@ header .top-nav-div nav a:hover::after {
     background-color: white;
     top: 0;
     left: 0;
-    transform: translate(-50%, -50%);   
+    transform: translate(-50%, -50%);
 }
 
 .player-back {
-    background-color: rgba(221, 221, 221,1);
+    background-color: rgba(221, 221, 221, 1);
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -378,7 +381,7 @@ header .top-nav-div nav a:hover::after {
 }
 
 .players-div {
-    background-color: rgba(255, 0, 0,0);
+    background-color: rgba(255, 0, 0, 0);
     width: 91vw;
     height: 150px;
     display: flex;
@@ -412,12 +415,12 @@ header .top-nav-div nav a:hover::after {
     font-weight: 500;
 }
 
-.players-box .online-back.online{
-    opacity:  1;
+.players-box .online-back.online {
+    opacity: 1;
 }
 
-.players-box .online-back.off{
-    opacity:  0;
+.players-box .online-back.off {
+    opacity: 0;
 }
 
 .players-box .online-back {
@@ -441,7 +444,7 @@ header .top-nav-div nav a:hover::after {
     justify-content: space-between;
 }
 
-.principal-container .titles-main div a{
+.principal-container .titles-main div a {
     text-decoration: none;
     color: white;
     font-family: "Outfit";
@@ -463,15 +466,16 @@ header .top-nav-div nav a:hover::after {
 }
 
 .games-main {
-    background-color: rgb(58, 58, 58);
     height: 500px;
 }
 
 .game-container {
-    background-color: red;
-    display: flex;
+    display: grid;
     height: 100%;
     width: 100%;
+    gap: 5px;
+    grid-template-columns: repeat(6, 1fr);
+    flex-wrap: wrap;
 }
 
 .games-main h1 {
@@ -483,15 +487,21 @@ header .top-nav-div nav a:hover::after {
 }
 
 .game-box {
-    background-color: blue;
-    width: 300px;
-    height: 240px;
+    width: 290px;
+    height: 250px;
     padding: 5px;
+    border-radius: 10px;
+}
+
+.game-box:hover {
+    cursor: pointer;
+    background-color: rgb(34, 34, 34);
+    transition: all 0.3s ease-in;
 }
 
 #game-thumb {
     border-radius: 7px;
-    width: 290px;
+    width: 280px;
     height: 160px;
 }
 
@@ -500,5 +510,15 @@ header .top-nav-div nav a:hover::after {
 }
 
 .game-box .rating-div {
-    display: flex; 
+    display: flex;
+    font-family: "Outfit";
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.7rem;
+}
+
+.game-box .rating-div img {
+    width: 15px;
+    height: 15px;
+    opacity: 0.6;
+    margin-bottom: 5px;
 }
