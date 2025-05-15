@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de formulario</title>
+</head>
+<body>
+    <form action="cadastro.js" method="get" autocomplete="on">
+        <p>
+            <label for="nome_id">Nome</label>
+            <input type="text" id="nome_id" minlength="5"
+            maxlength="25" required>
+        </p>
+
+        <p>
+            <label for="email_id">Email</label>
+            <input type="email" name="email" id="email_id" autocomplete="email">
+        </p>
+
+        <p>
+            <label for="tel_id">Telefone</label>
+            <input type="tel" name="tel" id="tel_id" autocomplete="tel" placeholder="(22)xxxx-xxxx" pattern="^\(\d{2})\d{4,5}-\d{4,5}$" required>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

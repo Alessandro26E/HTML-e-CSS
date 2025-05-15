@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade Basica 1</title>
+
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        body header {
+            background-color: rgb(54, 54, 54);
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 10px;
+            align-items: center;
+        }
+
+        header h1 {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5rem;
+            padding-left: 5px;
+        }
+
+        header nav ul {
+            display: flex;
+            gap: 10px;
+            list-style: none;
+            padding-right: 10px;
+        }
+
+        header nav ul li {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2rem;
+            flex: 1;
+        }
+
+        .imagem-section {
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            background-color: rgb(36, 36, 36);
+            height: auto;
+            padding: 10px;
+        }
+
+        .imagem-section h1 {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2rem;
+            margin: 0 auto;
+        }
+
+        .imagem-section div {
+            display: grid;
+            grid-template-columns: repeat(6, minmax(150px, 1fr));
+            width: 100%;
+            height: auto;
+            gap: 5px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .imagem-section div img {
+            width: 300px;
+            height: auto;
+            display: block;
+        }
+
+        @media screen and (max-width: 1500px) {
+            .imagem-section div {
+                grid-template-columns: repeat(5, minmax(150px, 1fr));
+            }
+
+            .imagem-section div img {
+                height: 300px;
+                width: 250px;
+            }
+
+        }
+
+        @media screen and (max-width: 1250px) {
+            .imagem-section div {
+                grid-template-columns: repeat(4, minmax(150px, 1fr));
+            }
+
+            .imagem-section div img {
+                height: 300px;
+                width: 250px;
+            }
+
+        }
+
+        @media screen and (max-width: 1000px) {
+            .imagem-section div {
+                grid-template-columns: repeat(3, minmax(150px, 1fr));
+            }
+
+            .imagem-section div img {
+                height: 300px;
+                width: 250px;
+            }
+
+        }
+
+        @media screen and (max-width: 740px)  {
+            .imagem-section div {
+                grid-template-columns: repeat(3, minmax(150px, 1fr));
+            }
+
+            .imagem-section div img {
+                height: 200px;
+                width: 160px;
+            }
+
+            .imagem-section h1 {
+                font-size: 2rem;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>MeuSite</h1>
+
+        <nav>
+            <ul>
+                <li>Inicio</li>
+                <li>Sobre</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="imagem-section">
+        <h1>Titulo das Imagens</h1>
+
+        <div>
+            <img src="https://m.media-amazon.com/images/I/61HFZxArQUL.jpg">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNwBAAf7cBIMrNO8yiyXT4YbFswn6DxktFBQ&s">
+            <img src="https://i.pinimg.com/564x/f9/fc/c7/f9fcc762e5eee3fa9f747000a93cbdec.jpg">
+            <img src="https://4kwallpapers.com/images/wallpapers/vibrant-fold-phone-480x800-14467.jpg">
+            <img src="https://cdn.wallpapersafari.com/35/28/SVXBF2.jpg">
+            <img src="https://images.hdqwalls.com/download/anime-ninja-4k-lo-480x800.jpg">
+        </div>
+    </section>
+</body>
+
+</html>
