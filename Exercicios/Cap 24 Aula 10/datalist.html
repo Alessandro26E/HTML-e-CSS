@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataList & Select</title>
+</head>
+
+<body>
+    <h1>DataList e Select</h1>
+
+    <form action="cadastro.js" method="post" autocomplete="on">
+
+        <p>
+            <label for="estadoid">Estado</label>
+
+            <select name="estado" id="estadoid">
+                <option value="" selected>ESCOLHA UMA OPÇÃO</option>
+
+                <optgroup label="Regiao Sudeste">
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+
+                <option value="PR">Parana</option>
+                <option value="BH">Bahia</option>
+                <option value="S">Salvador</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="profiid">Profissão</label>
+            <input type="text" name="profissao" id="profiid" list="listprof">
+
+            <datalist id="listprof">
+                <option value="PM">Policial</option>
+                <option value="MD">Medico</option>
+                <option>Bombeiro</option>
+                <option>Cozinheiro</option>
+                <option value="DEV">Desenvolvedor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Enviar">
+        </p>
+
+    </form>
+</body>
+
+</html>
