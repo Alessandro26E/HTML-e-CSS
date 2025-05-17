@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio checkbox e button</title>
+</head>
+<body>
+    <form action="cadastro.js" method="post" autocomplete="on">
+        <p>
+            <label for="numid">Numero</label>
+            <input type="range" id="idadeid" value="1" min="0" max="10" 
+            oninput="valueid.innerHTML = Number(idadeid.value)">
+            <output id="valueid">1</output>
+        </p>
+
+        <p>
+            <label for="tituloid">Em que ano você nasceu?</label>
+            <input type="number" name="ano" id="anoid" min="1900" max="2025" value="2000" 
+            oninput="calcidade()">
+
+        </p>
+        
+        <p>
+            <label for="iidade">Sua Idade:</label>
+            <output id="iidade">0</output>
+        </p>
+    </form>
+
+    <script>
+        function calcidade() {
+            let Atual = new Date().getFullYear()
+            iidade.innerHTML = Number(Atual) - Number(anoid.value)
+        }
+
+    </script>
+</body>
+</html>
