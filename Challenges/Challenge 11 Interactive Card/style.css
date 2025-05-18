@@ -40,6 +40,7 @@ body {
     transform: scale(0.9);
 }
 
+
 #cvcback {
     color: white;
     position: absolute;
@@ -117,6 +118,7 @@ body {
 .container-back {
     display: flex;
     height: 100%;
+    position: relative;
     background-color: hsl(0, 100%, 100%);
 }
 

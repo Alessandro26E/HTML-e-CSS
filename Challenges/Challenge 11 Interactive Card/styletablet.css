@@ -1,50 +1,40 @@
 @charset "UTF-8";
 
 
-@media screen and (min-width: 768px) and (max-width: 1104px) {
-    body {
-        background-color: red;
-        width: 100vw;
-        height: 100vh;
-    }
 
-    .main-section {
-        width: 100%;
-    }
-
-    .main-container {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        margin-top: 150px;
-    }
-
-    .container-back {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #bg-main-background {
-        height: 30%;
-    }
-
-    .cards-section {
-        position: relative;
-    }
-
+@media screen and (max-width: 1440px) and (min-width:900px) {
     .cards-section .card-front {
         position: absolute;
-        left: 15%;
-        top: 100%;
-        transform: scale(0.7) translateY(80%);
+        top: 40%;
+        transform: scale(0.9) translateY(-60%);
     }
 
     .cards-section .card-back {
         position: absolute;
-        left: 45%;
-        top: 40%;
-        transform: scale(0.7) translateY(50%);
+        top: 50%;
+        transform: scale(0.9) translateY(10%);
     }
 
+}
 
+@media screen and (max-width: 1024px) {
+    .cards-section .card-front {
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        transform: scale(0.8);
+    }
+
+     .cards-section .card-back {
+        position: absolute;
+        top: 45%;
+        left: 10%;
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width: 884px) {
+    .main-container {
+        background-color: red;
+    }
 }
