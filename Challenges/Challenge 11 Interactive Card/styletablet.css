@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 768px) and (max-width: 1104px) {
+    body {
+        background-color: red;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .main-section {
+        width: 100%;
+    }
+
+    .main-container {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 150px;
+    }
+
+    .container-back {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bg-main-background {
+        height: 30%;
+    }
+
+    .cards-section {
+        position: relative;
+    }
+
+    .cards-section .card-front {
+        position: absolute;
+        left: 15%;
+        top: 100%;
+        transform: scale(0.7) translateY(80%);
+    }
+
+    .cards-section .card-back {
+        position: absolute;
+        left: 45%;
+        top: 40%;
+        transform: scale(0.7) translateY(50%);
+    }
+
+
+}
