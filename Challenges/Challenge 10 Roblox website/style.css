@@ -119,7 +119,7 @@ header .top-nav-div nav a:hover::after {
 
 .infos-div {
     display: flex;
-    width: 285px;
+    width: 20%;
 }
 
 .infos-div .div-user-logo {
