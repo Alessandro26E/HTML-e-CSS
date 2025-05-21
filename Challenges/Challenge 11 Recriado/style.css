@@ -1,0 +1,246 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+:root {
+    --Space_Grotesk: "Space Grotesk", sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    font-family: var(--Space_Grotesk);
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    transform: scale(1.2);
+    margin-left: 13%;
+    margin-top: 15%;
+}
+
+.section-card .front-card {
+    background-image: url(images/bg-card-front.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+#circle-fill {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 8%;
+    left: 8%;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#circle-transparent {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 12%;
+    left: 23%;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+} 
+
+#cardnumber {
+    color: white;
+    font-size: 1.3rem;
+    padding-top: 80px;
+    padding-left: 15px;
+    letter-spacing: 2px;
+}
+
+.front-card .box-date-name {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 20px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.front-card .box-date-name p {
+    font-size: 0.7rem;
+}
+
+.front-card .date-div {
+    display: flex;
+}
+
+.section-card .back-card {
+    background-image: url(images/bg-card-back.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 160px;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+.section-card .back-card p {
+    color: white;
+    padding-top: 70px;
+    padding-left: 230px;
+    font-size: 0.8rem;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.div-backgrounds {
+    background-color: purple;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.main-container .image-background {
+    background-image: url(images/bg-main-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 100%;
+}
+
+.main-container .main-background{
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-background form {
+    width: 300px;
+    height: 270px;
+    transform: scale(1.2);
+}
+
+.main-background form .input-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-background form .date-div {
+    display: flex;
+}
+
+.main-background .input-div p {
+    color: hsl(278, 68%, 11%);
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+
+
+.main-background .input-div input {
+    width: 100%;
+    height: 35px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    border: 1px solid hsl(212, 12%, 71%);
+}
+
+.main-background .input-div input::placeholder {
+    font-family: var(--Space_Grotesk);
+    font-weight: 600;
+    color: hsl(212, 12%, 71%);
+    padding: 10px;
+}
+
+
+.main-background .box-exp-date .box-div-date {
+    display: flex;
+    gap: 10px;
+}
+
+.main-background .box-exp-date .box-div-date input {
+    width: 70px;
+    height: 35px;
+    border-radius: 6px;
+    border: 1px solid hsl(212, 12%, 71%);
+}
+
+.main-background .box-exp-date .box-div-date input::placeholder {
+    font-family: var(--Space_Grotesk);
+    font-weight: 600;
+}
+
+.main-background .box-exp-date p {
+    color: hsl(278, 68%, 11%);
+    font-family: var(--Space_Grotesk);
+    padding-bottom: 5px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.main-background .box-div-cvc {
+    margin-left: 20px;
+}
+
+.main-background .box-div-cvc p {
+    color: hsl(278, 68%, 11%);
+    font-family: var(--Space_Grotesk);
+    padding-bottom: 5px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.main-background .box-div-cvc input {
+    width: 100%;
+    height: 35px;
+    border-radius: 6px;
+    border: 1px solid hsl(212, 12%, 71%);
+}
+
+.main-background .box-div-cvc input::placeholder {
+    padding: 10px;
+    font-family: var(--Space_Grotesk);
+    font-weight: 600;
+}
+
+#confirmBtn {
+   width: 100%;
+   height: 40px;
+   margin-top: 20px;
+   border: none;
+   background-color: hsl(278, 68%, 11%);
+   color: white;
+   font-family: var(--Space_Grotesk);
+   border-radius: 7px;
+}
+
+form input {
+   font-weight: 500;
+   font-family: var(--Space_Grotesk);
+   padding: 10px;
+}
