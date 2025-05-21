@@ -1,0 +1,307 @@
+@charset "UTF-8";
+
+
+@media only screen and (max-width:600px) {
+    body {
+        overflow: hidden;
+    }
+
+    .main-container .div-backgrounds {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-container .div-backgrounds .image-background {
+        width: 100%;
+        height: 40%;
+    }
+
+    .main-container .main-background {
+        width: 100%;
+        height: 70%;
+        margin: auto;
+        margin-top: 150px;
+    }
+
+    .main-container .div-backgrounds {
+        height: 70%;
+    }
+
+    .main-container .div-backgrounds .main-background {
+        transform: scale(0.9);
+
+    }
+
+    .cards-container {
+        background-image: url(images/bg-main-desktop.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 91%;
+        height: 30%;
+        margin: 0px;
+        position: relative;
+    }
+
+    .section-card {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .section-card .front-card {
+        z-index: 2;
+        transform: scale(0.6);
+        position: absolute;
+        top: 50%;
+        left: -5%;
+
+    }
+
+    .section-card .back-card {
+        z-index: 1;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: scale(0.7);
+    }
+
+    .cards-container .back-card {
+        width: 290px;
+        height: 200px;
+    }
+
+    #cvctext {
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        transform: translate(-50%, -50%);
+        transform: translateX(-20%);
+    }
+
+    .front-card .box-date-name {
+        width: 265px;
+        margin-top: 50px;
+        margin-left: 45px;
+        margin-right: 20px;
+        transform: scale(1.2);
+    }
+
+    #cardnumber {
+        transform: scale(1.2);
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+    #circle-fill {
+        left: 3%;
+    }
+
+    #circle-transparent {
+        left: 13%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        overflow: hidden;
+    }
+
+    .main-container .div-backgrounds {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-container .div-backgrounds .image-background {
+        width: 100%;
+        height: 40%;
+    }
+
+    .main-container .main-background {
+        width: 100%;
+        height: 60%;
+        margin: auto;
+        margin-top: 150px;
+    }
+
+    .main-container .div-backgrounds {
+        height: 70%;
+    }
+
+    .main-container .div-backgrounds .main-background {
+        transform: scale(1);
+
+    }
+
+    .cards-container {
+        background-image: url(images/bg-main-desktop.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 91%;
+        height: 30%;
+        margin: 0px;
+        position: relative;
+    }
+
+    .section-card {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .section-card .front-card {
+        z-index: 2;
+        transform: scale(0.8);
+        position: absolute;
+        top: 50%;
+        left: 5%;
+    }
+
+    .section-card .back-card {
+        z-index: 1;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: scale(0.9);
+    }
+
+    .cards-container .back-card {
+        width: 290px;
+        height: 200px;
+    }
+
+
+    #cvctext {
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        transform: translate(-50%, -50%);
+        transform: translateX(-20%);
+    }
+
+    .front-card .box-date-name {
+        width: 265px;
+        margin-top: 50px;
+        margin-left: 45px;
+        margin-right: 20px;
+        transform: scale(1.2);
+    }
+
+    #cardnumber {
+        transform: scale(1.2);
+        margin-left: 50px;
+        margin-top: 15px;
+    }
+
+    #circle-fill {
+        left: 3%;
+    }
+
+    #circle-transparent {
+        left: 13%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    #cardnumber {
+        transform: scale(1.2);
+        margin-left: 70px;
+        margin-top: 15px;
+    }
+
+    .section-card .front-card {
+        z-index: 2;
+        transform: scale(0.8);
+        position: absolute;
+        top: 50%;
+        left: 10%;
+    }
+
+    .section-card .back-card {
+        z-index: 1;
+        position: absolute;
+        top: 35%;
+        left: 55%;
+        transform: scale(0.9);
+    }
+
+
+    #circle-transparent {
+        position: absolute;
+        right: 10px;
+        transform: translateX(-30px);
+    }
+
+}
+
+
+@media only screen and (min-width: 990px) {
+    #cardnumber {
+        transform: scale(1.2);
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+
+    .section-card .front-card {
+        z-index: 2;
+        transform: scale(0.9);
+        position: absolute;
+        top: 50%;
+        left: 30%;
+    }
+
+    .section-card .back-card {
+        z-index: 1;
+        position: absolute;
+        top: 35%;
+        left: 65%;
+        transform: scale(1);
+    }
+
+    .main-container .div-backgrounds .main-background {
+        transform: scale(1.1);
+
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .main-container .div-backgrounds .main-background {
+        transform: scale(1.1);
+
+    }
+
+    .section-card .front-card {
+        z-index: 2;
+        transform: scale(1);
+        position: absolute;
+        top: 50%;
+        left: 36%;
+    }
+
+    .section-card .back-card {
+        z-index: 1;
+        position: absolute;
+        top: 35%;
+        left: 55%;
+        transform: scale(1.1);
+    }
+
+    #circle-fill {
+        left: 10px;
+    }
+
+    #circle-transparent {
+        left: 100px;
+    }
+
+    #cardnumber {
+        transform: scale(1.2);
+        margin-left: 150px;
+        margin-top: 15px;
+    }
+}
