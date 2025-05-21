@@ -34,12 +34,12 @@
         <p id="cardnumber">0000 0000 0000 0000</p>
 
         <div class="box-date-name">
-          <p>Jane Appleseed</p>
+          <p id="card-name">Jane Appleseed</p>
 
           <div class="date-div">
-            <p>00</p>
+            <p id="mestext">00</p>
             <p>/</p>
-            <p>00</p>
+            <p id="anotext">00</p>
           </div>
 
         </div>
@@ -48,7 +48,7 @@
 
     <section class="section-card">
       <div class="back-card">
-        <p>000</p>
+        <p id="cvctext">000</p>
       </div>
     </section>
 
@@ -65,10 +65,10 @@
           <div class="input-div">
 
             <p>Cardholder Name</p>
-            <input type="text" id="Cardholderinput" autocomplete="username" maxlength="30" placeholder="e.g. Jane Appleseed" required>
+            <input type="text" name="cardholder" id="Cardholderinput" autocomplete="username" maxlength="30" placeholder="e.g. Jane Appleseed" required>
 
             <p>Card Number</p>
-            <input type="text" autocomplete="username" minlength="8" maxlength="8"
+            <input type="text" name="cardnumber" id="cardnumberInput" autocomplete="username" minlength="16" maxlength="16"
               placeholder="e.g. 1234 5678 9123 0000" required>
           </div>
 
@@ -78,7 +78,7 @@
               <p>Exp. Date (MM/YY)</p>
               <div class="box-div-date">
                 <input type="text" name="mes" id="mesinput" placeholder="MM" minlength="2" maxlength="2">
-                <input type="text" name="dia" id="diainput" placeholder="YY" minlength="2" maxlength="2">
+                <input type="text" name="ano" id="anoinput" placeholder="YY" minlength="2" maxlength="2">
               </div>
             </div>
 
@@ -97,7 +97,7 @@
     </div>
 
   </div>
-
+  <script src="script.js"></script>
 </body>
 
 </html>
