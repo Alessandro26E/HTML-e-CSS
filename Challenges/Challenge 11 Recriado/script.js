@@ -15,8 +15,8 @@ const ConfirmBTN = document.getElementById("confirmBtn")
 /*/^[a-zA-Z0-9]$/*/
 
 cardNumberInput.addEventListener("keyup", function(event) {
-    var tecla = event.key;
-    var numero = /^[0-9]$/.test(tecla);
+    let tecla = event.key;
+    let numero = /^[0-9]$/.test(tecla);
 
 
     if (numero == true) {
@@ -26,8 +26,8 @@ cardNumberInput.addEventListener("keyup", function(event) {
 })
 
 cardNameInput.addEventListener("keyup", function(event) {
-    var tecla = event.key;
-    var letra =  /^[a-zA-Z]$/.test(tecla)
+    let tecla = event.key;
+    let letra =  /^[a-zA-Z]$/.test(tecla)
 
     if (letra == true) {
         cardName.innerText = cardNameInput.value
@@ -36,8 +36,8 @@ cardNameInput.addEventListener("keyup", function(event) {
 
 
 mesInput.addEventListener("keyup", function(event) {
-    var tecla = event.key
-    var numero = /^[0-9]$/.test(tecla)
+    let tecla = event.key
+    let numero = /^[0-9]$/.test(tecla)
 
     if (numero == true) {
         mestext.innerText = mesInput.value
@@ -46,8 +46,8 @@ mesInput.addEventListener("keyup", function(event) {
 
 
 anoInput.addEventListener("keyup", function(event) {
-    var tecla = event.key
-    var numero = /^[0-9]$/.test(tecla)
+    let tecla = event.key
+    let numero = /^[0-9]$/.test(tecla)
 
     if (numero == true) {
         anotext.innerText = anoInput.value
@@ -55,8 +55,8 @@ anoInput.addEventListener("keyup", function(event) {
 })
 
 cvcInput;addEventListener("keyup", function(event) {
-    var tecla = event.key
-    var numero = /^[0-9]$/.test(tecla)
+    let tecla = event.key
+    let numero = /^[0-9]$/.test(tecla)
 
     if (numero == true) {
         cvctext.innerText = cvcInput.value
