@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1440px){
+
+    .cards-section .card-front {
+        position: absolute;
+        top: 30%;
+        transform: scale(0.9) translateY(-60%);
+    }
+
+    .cards-section .card-back {
+        position: absolute;
+        top: 40%;
+        transform: scale(0.9) translateY(10%);
+    }
+
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .container-back {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bg-main-background {
+        width: 100%;
+        height: 40%;
+    }
+
+     .cards-section .card-front {
+        position: absolute;
+        left: 10%;
+        top: 35%;
+        transform: scale(0.9) translateY(-70%);
+    }
+
+    .cards-section .card-back {
+        position: absolute;
+        left: 40%;
+        top: 20%;
+        transform: scale(0.8) translateY(-70%);
+    }
+}

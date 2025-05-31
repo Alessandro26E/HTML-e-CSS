@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 760px) {
+
+    .main-container {
+        transform: scale(0.6);
+    }
+
+    .container-back {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bg-main-background {
+        height: 40%;
+    }
+
+    .cards-section .card-front {
+        transform: scale(0.4);
+        position: fixed;
+        top: 10%;
+        left: -35%;
+    }
+
+    .cards-section .card-back {
+        transform: scale(0.4);
+        position: fixed;
+        top: -5%;
+        left: -5%;
+    }
+
+}
+
+
